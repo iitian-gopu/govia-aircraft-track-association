@@ -1,0 +1,10 @@
+{
+ "cost_ratio": 5,
+ "model_version": "learned-a36e991b130d",
+ "policy": {
+  "min_margin": 0.05,
+  "min_score": 0.01,
+  "plausible_score": 0.01
+ },
+ "selected_on": "validation, then out-of-fold train (development; both explored earlier)"
+}

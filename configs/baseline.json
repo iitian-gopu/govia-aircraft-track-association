@@ -1,0 +1,28 @@
+{
+ "candidates": {
+  "max_gap_s": 600.0,
+  "max_implied_kmh": 1100.0,
+  "max_projection_km": 5.0
+ },
+ "scales": {
+  "position_km": 0.0029820737375362005,
+  "position_km_per_s": 0.001959488395604206,
+  "altitude_ft": 0.0,
+  "altitude_ft_per_s": 1.153908300976906,
+  "speed_kmh": 3.6392845791400448,
+  "course_deg": 0.695052362811071,
+  "position_floor_km": 0.10026244358285187,
+  "altitude_floor_ft": 29.824730670660912
+ },
+ "policy": {
+  "min_score": -40.0,
+  "min_margin": 4.0,
+  "plausible_score": -120.0
+ },
+ "use_altitude": true,
+ "use_speed_course": false,
+ "missing_penalty": 1.0,
+ "min_reports_for_motion": 3,
+ "selected_on": "validation then train (development; both explored in phase 1)",
+ "cost_ratio": 5
+}

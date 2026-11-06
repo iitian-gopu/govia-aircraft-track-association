@@ -1,0 +1,3231 @@
+{
+ "analysis": {
+  "input_fingerprint": "644790d17c36ab3bf2653baa49b548b3776a79a6bcf30210bac8a562a0845417",
+  "quality": {
+   "altitude_absent": 30,
+   "altitude_null": 37,
+   "observation_rows": 298,
+   "received_before_observed": 0,
+   "single_report_tracklets": 0,
+   "supporting_rows": 190,
+   "supporting_without_observation": 0,
+   "tracklets_delivered_out_of_order": 23,
+   "unique_observations": 288,
+   "unique_supporting": 184
+  },
+  "receipt_cutoff": "2026-06-09T00:20:00.000Z",
+  "scenario_id": "scenario-9a73ad2b-a6a6-5fa0-a1c7-bd1d0ca2be68",
+  "snapshot_id": "snapshot-0f61d5f0-f016-67ba-4361-759ffcd768ad"
+ },
+ "baseline": {
+  "config": {
+   "candidates": {
+    "max_gap_s": 600.0,
+    "max_implied_kmh": 1100.0,
+    "max_projection_km": 5.0
+   },
+   "min_reports_for_motion": 3,
+   "missing_penalty": 1.0,
+   "policy": {
+    "min_margin": 4.0,
+    "min_score": -40.0,
+    "plausible_score": -120.0
+   },
+   "scales": {
+    "altitude_floor_ft": 29.824730670660912,
+    "altitude_ft": 0.0,
+    "altitude_ft_per_s": 1.153908300976906,
+    "course_deg": 0.695052362811071,
+    "position_floor_km": 0.10026244358285187,
+    "position_km": 0.0029820737375362005,
+    "position_km_per_s": 0.001959488395604206,
+    "speed_kmh": 3.6392845791400448
+   },
+   "use_altitude": true,
+   "use_speed_course": false
+  },
+  "input_fingerprint": "644790d17c36ab3bf2653baa49b548b3776a79a6bcf30210bac8a562a0845417",
+  "links": {
+   "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+   "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+   "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976",
+   "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd",
+   "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de",
+   "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+   "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+   "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144",
+   "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e": "tracklet-49d28583-b279-1634-9773-2800a9349669",
+   "tracklet-49d28583-b279-1634-9773-2800a9349669": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2",
+   "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+   "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb": "tracklet-88a1d73d-4188-2250-25aa-25325111de11",
+   "tracklet-88a1d73d-4188-2250-25aa-25325111de11": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205",
+   "tracklet-97c73082-2aab-0792-5643-9cd74024ea78": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+   "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+   "tracklet-c0fe73d2-c2bc-8fb5-c015-ab06a7132a4f": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb",
+   "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+  },
+  "method": "baseline",
+  "policy": {
+   "min_margin": 4.0,
+   "min_score": -40.0,
+   "plausible_score": -120.0
+  },
+  "receipt_cutoff": "2026-06-09T00:20:00.000Z",
+  "scenario_id": "scenario-9a73ad2b-a6a6-5fa0-a1c7-bd1d0ca2be68",
+  "snapshot_id": "snapshot-0f61d5f0-f016-67ba-4361-759ffcd768ad",
+  "tracklets": [
+   {
+    "accepted_successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a by 1951.305",
+      "measurements": {
+       "altitude_diff_ft": 253.38628495629018,
+       "altitude_miss_ft": 82.43507663725723,
+       "backward_miss_km": 0.3120255022515372,
+       "course_diff_deg": 0.0685675756801345,
+       "endpoint_km": 15.699849404867894,
+       "forward_miss_km": 0.3495590863092688,
+       "gap_s": 105.46499999999999,
+       "implied_kmh": 535.9072474994019,
+       "position_miss_km": 0.330792294280403,
+       "predecessor_reports": 12,
+       "score_terms": {
+        "altitude": 0.4588437102962284,
+        "position": 2.489800019454175
+       },
+       "speed_diff_kmh": 1.9832835860163414,
+       "successor_reports": 12
+      },
+      "rank": 1,
+      "score": -2.9486437297504033,
+      "successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 383.4619918822027,
+       "altitude_miss_ft": 524.0547274758956,
+       "backward_miss_km": 2.6473657620001356,
+       "course_diff_deg": 1.434482131449073,
+       "endpoint_km": 79.75490391706958,
+       "forward_miss_km": 0.6582252812644596,
+       "gap_s": 532.136,
+       "implied_kmh": 539.5569066957516,
+       "position_miss_km": 1.6527955216322976,
+       "predecessor_reports": 12,
+       "score_terms": {
+        "altitude": 0.7283924062852293,
+        "position": 2.4981990385099233
+       },
+       "speed_diff_kmh": 5.956222120320717,
+       "successor_reports": 14
+      },
+      "rank": 2,
+      "score": -3.2265914447951527,
+      "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 673.7390577511214,
+       "altitude_miss_ft": 765.3305067916463,
+       "backward_miss_km": 0.8385933937954532,
+       "course_diff_deg": 0.1017521817596787,
+       "endpoint_km": 49.26356425902688,
+       "forward_miss_km": 0.6963864597713606,
+       "gap_s": 329.548,
+       "implied_kmh": 538.1578141348052,
+       "position_miss_km": 0.7674899267834069,
+       "predecessor_reports": 12,
+       "score_terms": {
+        "altitude": 4.050588210873689,
+        "position": 1.3996539598413995
+       },
+       "speed_diff_kmh": 1.0477982977748752,
+       "successor_reports": 13
+      },
+      "rank": 3,
+      "score": -5.450242170715088,
+      "successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c already links to tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+      "measurements": {
+       "altitude_diff_ft": 7460.976696130976,
+       "altitude_miss_ft": 7603.7704486618395,
+       "backward_miss_km": 4.19062968780624,
+       "course_diff_deg": 3.162926046994386,
+       "endpoint_km": 16.33527977846142,
+       "forward_miss_km": 5.358802384763038,
+       "gap_s": 86.536,
+       "implied_kmh": 679.5669686888823,
+       "position_miss_km": 4.774716036284639,
+       "predecessor_reports": 12,
+       "score_terms": {
+        "altitude": 5798.581508399993,
+        "position": 765.7260408527336
+       },
+       "speed_diff_kmh": 45.84274458404627,
+       "successor_reports": 7
+      },
+      "rank": 4,
+      "score": -6564.307549252727,
+      "successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 13
+    },
+    "reason": "accepted tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a: leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a by 1951.305",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c"
+   },
+   {
+    "accepted_successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 by 146.960",
+      "measurements": {
+       "altitude_diff_ft": 133.28119720898394,
+       "altitude_miss_ft": 115.5811093389766,
+       "backward_miss_km": 0.3823934832669048,
+       "course_diff_deg": 0.4963086985233076,
+       "endpoint_km": 17.123179415195654,
+       "forward_miss_km": 0.2977036340133945,
+       "gap_s": 130.44,
+       "implied_kmh": 472.5808486254551,
+       "position_miss_km": 0.34004855864014966,
+       "predecessor_reports": 9,
+       "score_terms": {
+        "altitude": 0.5896706901521198,
+        "position": 1.7294165303453994
+       },
+       "speed_diff_kmh": 0.34007382654897356,
+       "successor_reports": 13
+      },
+      "rank": 1,
+      "score": -2.3190872204975195,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 56.34522045135236,
+       "altitude_miss_ft": 769.7651984256354,
+       "backward_miss_km": 0.3164056875915173,
+       "course_diff_deg": 0.8717760972015753,
+       "endpoint_km": 45.03501598245069,
+       "forward_miss_km": 0.47066244831412146,
+       "gap_s": 345.813,
+       "implied_kmh": 468.82580335852754,
+       "position_miss_km": 0.3935340679528194,
+       "predecessor_reports": 9,
+       "score_terms": {
+        "altitude": 3.721271173950919,
+        "position": 0.33433552340776207
+       },
+       "speed_diff_kmh": 0.13896508538618946,
+       "successor_reports": 11
+      },
+      "rank": 2,
+      "score": -4.055606697358681,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f already links to tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+      "measurements": {
+       "altitude_diff_ft": 4999.962149548848,
+       "altitude_miss_ft": 5115.758064691497,
+       "backward_miss_km": 1.3967984495978785,
+       "course_diff_deg": 1.5929315303938836,
+       "endpoint_km": 43.92777861941085,
+       "forward_miss_km": 0.35769989518465023,
+       "gap_s": 337.272,
+       "implied_kmh": 468.87972624433417,
+       "position_miss_km": 0.8772491723912643,
+       "predecessor_reports": 9,
+       "score_terms": {
+        "altitude": 172.78929155532455,
+        "position": 1.7461818583757085
+       },
+       "speed_diff_kmh": 5.934435270162112,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": -174.53547341370026,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f already links to tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+      "measurements": {
+       "altitude_diff_ft": 5155.277281481865,
+       "altitude_miss_ft": 5051.901568176472,
+       "backward_miss_km": 0.5752237464750289,
+       "course_diff_deg": 0.12318690616677941,
+       "endpoint_km": 15.307756511620541,
+       "forward_miss_km": 0.5223484706739014,
+       "gap_s": 115.946,
+       "implied_kmh": 475.28956101835286,
+       "position_miss_km": 0.5487861085744652,
+       "predecessor_reports": 9,
+       "score_terms": {
+        "altitude": 1425.7901953485061,
+        "position": 5.68437457212781
+       },
+       "speed_diff_kmh": 1.9765780605785608,
+       "successor_reports": 15
+      },
+      "rank": 4,
+      "score": -1431.474569920634,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 8
+    },
+    "reason": "accepted tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6: leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 by 146.960",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+   },
+   {
+    "accepted_successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 157.21079459831162,
+       "altitude_miss_ft": 82.97326157525367,
+       "backward_miss_km": 1.2447785787380883,
+       "course_diff_deg": 2.7521000798088266,
+       "endpoint_km": 16.26304672511246,
+       "forward_miss_km": 0.4177185808496923,
+       "gap_s": 117.336,
+       "implied_kmh": 498.9685025090753,
+       "position_miss_km": 0.8312485797938903,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 0.3755529440555629,
+        "position": 12.738567787799585
+       },
+       "speed_diff_kmh": 10.743768028940167,
+       "successor_reports": 9
+      },
+      "rank": 1,
+      "score": -13.114120731855149,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 already links to tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976",
+      "measurements": {
+       "altitude_diff_ft": 4317.5565061141715,
+       "altitude_miss_ft": 4185.393877289081,
+       "backward_miss_km": 1.9383297595520015,
+       "course_diff_deg": 2.0945346717508357,
+       "endpoint_km": 14.8417788552285,
+       "forward_miss_km": 2.404146486120076,
+       "gap_s": 98.21499999999999,
+       "implied_kmh": 544.0147012047305,
+       "position_miss_km": 2.171238122836039,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 1363.8745709828352,
+        "position": 123.42925491759433
+       },
+       "speed_diff_kmh": 1.893251445530609,
+       "successor_reports": 21
+      },
+      "rank": 2,
+      "score": -1487.3038259004295,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 1,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+   },
+   {
+    "accepted_successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 178.80752599762855,
+       "altitude_miss_ft": 139.2582107768576,
+       "backward_miss_km": 0.26601361068782936,
+       "course_diff_deg": 0.3754673986782677,
+       "endpoint_km": 13.481653210912398,
+       "forward_miss_km": 0.34548292090694255,
+       "gap_s": 103.934,
+       "implied_kmh": 466.9689568311105,
+       "position_miss_km": 0.30574826579738595,
+       "predecessor_reports": 13,
+       "score_terms": {
+        "altitude": 1.3482913336578062,
+        "position": 2.189279191914321
+       },
+       "speed_diff_kmh": 0.2011087411627841,
+       "successor_reports": 11
+      },
+      "rank": 1,
+      "score": -3.537570525572127,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 already links to tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd",
+      "measurements": {
+       "altitude_diff_ft": 4877.499844002572,
+       "altitude_miss_ft": 4994.777652485884,
+       "backward_miss_km": 0.4910306977991099,
+       "course_diff_deg": 1.0966228318706044,
+       "endpoint_km": 12.368062144565664,
+       "forward_miss_km": 0.23747769755456385,
+       "gap_s": 95.393,
+       "implied_kmh": 466.75357437585984,
+       "position_miss_km": 0.36425419767683687,
+       "predecessor_reports": 13,
+       "score_terms": {
+        "altitude": 2059.0017255422504,
+        "position": 3.679111608225805
+       },
+       "speed_diff_kmh": 5.594361443613138,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": -2062.6808371504762,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 2,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+   },
+   {
+    "accepted_successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a -> tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976 by 945.962",
+      "measurements": {
+       "altitude_diff_ft": 160.74829051188317,
+       "altitude_miss_ft": 101.61607716677281,
+       "backward_miss_km": 0.12736256527322293,
+       "course_diff_deg": 0.07294686407973927,
+       "endpoint_km": 15.32054501708773,
+       "forward_miss_km": 0.06270851344057747,
+       "gap_s": 109.341,
+       "implied_kmh": 504.4215990480773,
+       "position_miss_km": 0.0950355393569002,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 0.6486585877846717,
+        "position": 0.19138791564045168
+       },
+       "speed_diff_kmh": 2.4642830169394188,
+       "successor_reports": 21
+      },
+      "rank": 1,
+      "score": -0.8400465034251233,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a already links to tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de",
+      "measurements": {
+       "altitude_diff_ft": 3999.5974210039767,
+       "altitude_miss_ft": 4225.08811784878,
+       "backward_miss_km": 2.9869414309819295,
+       "course_diff_deg": 0.7305122721377302,
+       "endpoint_km": 17.01466198831513,
+       "forward_miss_km": 2.9182686720628475,
+       "gap_s": 128.462,
+       "implied_kmh": 476.8163593742467,
+       "position_miss_km": 2.9526050515223883,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 812.4180959601297,
+        "position": 134.38365314034127
+       },
+       "speed_diff_kmh": 15.101302491410195,
+       "successor_reports": 9
+      },
+      "rank": 2,
+      "score": -946.8017491004709,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 1,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de: leads tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a -> tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976 by 945.962",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+   },
+   {
+    "accepted_successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a by 104.658",
+      "measurements": {
+       "altitude_diff_ft": 263.2068499128818,
+       "altitude_miss_ft": 63.97704527125734,
+       "backward_miss_km": 0.09701250125303976,
+       "course_diff_deg": 0.1865548450250003,
+       "endpoint_km": 17.365596231700415,
+       "forward_miss_km": 0.046744114312977605,
+       "gap_s": 123.94399999999999,
+       "implied_kmh": 504.39026039277013,
+       "position_miss_km": 0.07187830778300869,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 0.20010352833509698,
+        "position": 0.08547894177718836
+       },
+       "speed_diff_kmh": 2.1799073081850793,
+       "successor_reports": 15
+      },
+      "rank": 1,
+      "score": -0.2855824701122853,
+      "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 638.2638694267698,
+       "altitude_miss_ft": 406.81222996000633,
+       "backward_miss_km": 0.35031382430422875,
+       "course_diff_deg": 0.2595017091047396,
+       "endpoint_km": 47.7995672474602,
+       "forward_miss_km": 0.11663164762342754,
+       "gap_s": 341.34,
+       "implied_kmh": 504.126214597928,
+       "position_miss_km": 0.23347273596382814,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 1.0667705990713539,
+        "position": 0.12076708709144814
+       },
+       "speed_diff_kmh": 4.644190325124498,
+       "successor_reports": 21
+      },
+      "rank": 2,
+      "score": -1.187537686162802,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 already links to tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+      "measurements": {
+       "altitude_diff_ft": 3522.08184208909,
+       "altitude_miss_ft": 4019.3011488201328,
+       "backward_miss_km": 3.475718227989899,
+       "course_diff_deg": 0.9170671171627305,
+       "endpoint_km": 49.35457507736075,
+       "forward_miss_km": 2.866216206655157,
+       "gap_s": 360.46099999999996,
+       "implied_kmh": 492.91454631291236,
+       "position_miss_km": 3.170967217322528,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 93.377433452621,
+        "position": 19.985825456826923
+       },
+       "speed_diff_kmh": 17.281209799595274,
+       "successor_reports": 9
+      },
+      "rank": 3,
+      "score": -113.36325890944792,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 already links to tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+      "measurements": {
+       "altitude_diff_ft": 3948.751125369763,
+       "altitude_miss_ft": 4211.092500940512,
+       "backward_miss_km": 0.8911357967267095,
+       "course_diff_deg": 1.8350329626460962,
+       "endpoint_km": 18.538453499449467,
+       "forward_miss_km": 1.4989835457972538,
+       "gap_s": 138.141,
+       "implied_kmh": 483.1182096410051,
+       "position_miss_km": 1.1950596712619816,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 697.9137846477994,
+        "position": 19.06917508044281
+       },
+       "speed_diff_kmh": 6.537441770655107,
+       "successor_reports": 10
+      },
+      "rank": 4,
+      "score": -716.9829597282422,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 8
+    },
+    "reason": "accepted tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a: leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a by 104.658",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+   },
+   {
+    "accepted_successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828 -> tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 by 106.513",
+      "measurements": {
+       "altitude_diff_ft": 72.70296226532082,
+       "altitude_miss_ft": 119.7129932760281,
+       "backward_miss_km": 0.14450490132721144,
+       "course_diff_deg": 0.23958006752178562,
+       "endpoint_km": 14.605204481578983,
+       "forward_miss_km": 0.15056502209280764,
+       "gap_s": 103.892,
+       "implied_kmh": 506.09032585458306,
+       "position_miss_km": 0.14753496171000954,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 0.9971850779035543,
+        "position": 0.5101631008838291
+       },
+       "speed_diff_kmh": 4.0268799650487495,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": -1.5073481787873835,
+      "successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 452.27602228561227,
+       "altitude_miss_ft": 492.5785826232923,
+       "backward_miss_km": 0.3791941438376646,
+       "course_diff_deg": 0.4261349125467859,
+       "endpoint_km": 45.24515651913644,
+       "forward_miss_km": 0.37365866149200433,
+       "gap_s": 322.327,
+       "implied_kmh": 505.333290319741,
+       "position_miss_km": 0.37642640266483446,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 1.7539414114256993,
+        "position": 0.3518762934457979
+       },
+       "speed_diff_kmh": 1.8469726568636702,
+       "successor_reports": 15
+      },
+      "rank": 2,
+      "score": -2.105817704871497,
+      "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 827.3330417995003,
+       "altitude_miss_ft": 1083.2779698948252,
+       "backward_miss_km": 0.7334768024162199,
+       "course_diff_deg": 0.4990817766265252,
+       "endpoint_km": 75.67910491444498,
+       "forward_miss_km": 0.6585637010502634,
+       "gap_s": 539.723,
+       "implied_kmh": 504.7863027738339,
+       "position_miss_km": 0.6960202517332417,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 3.025487589881097,
+        "position": 0.430695947210817
+       },
+       "speed_diff_kmh": 0.6173103600757486,
+       "successor_reports": 21
+      },
+      "rank": 3,
+      "score": -3.456183537091914,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 3333.0126697163596,
+       "altitude_miss_ft": 3459.9346752410147,
+       "backward_miss_km": 4.2850098103005365,
+       "course_diff_deg": 1.156647184684516,
+       "endpoint_km": 77.21065794795447,
+       "forward_miss_km": 2.371174923542989,
+       "gap_s": 558.8439999999999,
+       "implied_kmh": 497.38096608827533,
+       "position_miss_km": 3.328092366921763,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 28.788034752047654,
+        "position": 9.186752338583375
+       },
+       "speed_diff_kmh": 13.254329834546525,
+       "successor_reports": 9
+      },
+      "rank": 4,
+      "score": -37.974787090631025,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828 already links to tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+      "measurements": {
+       "altitude_diff_ft": 3759.6819529970326,
+       "altitude_miss_ft": 4010.9984183293527,
+       "backward_miss_km": 0.32553034392345936,
+       "course_diff_deg": 1.5954528951243105,
+       "endpoint_km": 46.3964540862915,
+       "forward_miss_km": 1.201295110581967,
+       "gap_s": 336.524,
+       "implied_kmh": 496.3308254705442,
+       "position_miss_km": 0.7634127272527131,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 106.69161803436978,
+        "position": 1.3282571071392193
+       },
+       "speed_diff_kmh": 2.5105618056063577,
+       "successor_reports": 10
+      },
+      "rank": 5,
+      "score": -108.019875141509,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 12
+    },
+    "reason": "accepted tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788: leads tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828 -> tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 by 106.513",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828"
+   },
+   {
+    "accepted_successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 103.220969151178,
+       "altitude_miss_ft": 34.40027935691978,
+       "backward_miss_km": 0.32366649787387614,
+       "course_diff_deg": 1.3327299496893943,
+       "endpoint_km": 13.380499762577566,
+       "forward_miss_km": 0.059405218964105534,
+       "gap_s": 89.131,
+       "implied_kmh": 540.4382217778241,
+       "position_miss_km": 0.19153585841899085,
+       "predecessor_reports": 13,
+       "score_terms": {
+        "altitude": 0.11187261388768031,
+        "position": 1.1626573458790148
+       },
+       "speed_diff_kmh": 4.908423822545842,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": -1.274529959766695,
+      "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 5
+    },
+    "reason": "accepted tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+   },
+   {
+    "accepted_successor": "tracklet-49d28583-b279-1634-9773-2800a9349669",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-4988f186-83b6-51e6-b59d-513774b5e61e -> tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd by 148.492",
+      "measurements": {
+       "altitude_diff_ft": 66.84363609144384,
+       "altitude_miss_ft": 79.75341808240046,
+       "backward_miss_km": 0.19566952699195062,
+       "course_diff_deg": 1.3204075428436681,
+       "endpoint_km": 15.674784449629668,
+       "forward_miss_km": 0.32983761388448074,
+       "gap_s": 120.06099999999999,
+       "implied_kmh": 470.0046144765311,
+       "position_miss_km": 0.2627535704382157,
+       "predecessor_reports": 14,
+       "score_terms": {
+        "altitude": 0.33139969359704213,
+        "position": 1.2163739926083093
+       },
+       "speed_diff_kmh": 7.955998607411004,
+       "successor_reports": 15
+      },
+      "rank": 1,
+      "score": -1.5477736862053515,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-49d28583-b279-1634-9773-2800a9349669 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 88.47149584157341,
+       "altitude_miss_ft": 648.3588045561364,
+       "backward_miss_km": 1.0574833876840681,
+       "course_diff_deg": 2.7901521670707723,
+       "endpoint_km": 44.301515552460636,
+       "forward_miss_km": 1.2177322381124507,
+       "gap_s": 341.387,
+       "implied_kmh": 467.1690954513742,
+       "position_miss_km": 1.1376078128982594,
+       "predecessor_reports": 14,
+       "score_terms": {
+        "altitude": 2.7089081021060704,
+        "position": 2.8664364568010408
+       },
+       "speed_diff_kmh": 0.044985276670331587,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": -5.575344558907111,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e already links to tracklet-49d28583-b279-1634-9773-2800a9349669",
+      "measurements": {
+       "altitude_diff_ft": 5144.778865841774,
+       "altitude_miss_ft": 4910.29252586968,
+       "backward_miss_km": 0.21554478038343872,
+       "course_diff_deg": 2.068996733878464,
+       "endpoint_km": 45.414338759562504,
+       "forward_miss_km": 1.807978026278692,
+       "gap_s": 349.928,
+       "implied_kmh": 467.21502576079934,
+       "position_miss_km": 1.0117614033310653,
+       "predecessor_reports": 14,
+       "score_terms": {
+        "altitude": 147.88180635852925,
+        "position": 2.158460305649635
+       },
+       "speed_diff_kmh": 5.840455461446254,
+       "successor_reports": 11
+      },
+      "rank": 3,
+      "score": -150.0402666641789,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e already links to tracklet-49d28583-b279-1634-9773-2800a9349669",
+      "measurements": {
+       "altitude_diff_ft": 4955.152448181438,
+       "altitude_miss_ft": 5045.273719256074,
+       "backward_miss_km": 0.1263868193358346,
+       "course_diff_deg": 1.6935293352001963,
+       "endpoint_km": 17.497203358994934,
+       "forward_miss_km": 0.6326371022899958,
+       "gap_s": 134.555,
+       "implied_kmh": 468.13520190540487,
+       "position_miss_km": 0.3795119608129152,
+       "predecessor_reports": 14,
+       "score_terms": {
+        "altitude": 1055.9106963948284,
+        "position": 2.0258018499089703
+       },
+       "speed_diff_kmh": 5.63934672028347,
+       "successor_reports": 13
+      },
+      "rank": 4,
+      "score": -1057.9364982447373,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 8
+    },
+    "reason": "accepted tracklet-49d28583-b279-1634-9773-2800a9349669: leads tracklet-4988f186-83b6-51e6-b59d-513774b5e61e -> tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd by 148.492",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+   },
+   {
+    "accepted_successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f -> tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2 by 172.387",
+      "measurements": {
+       "altitude_diff_ft": 168.84067782510465,
+       "altitude_miss_ft": 118.77791961000094,
+       "backward_miss_km": 0.17336996004095603,
+       "course_diff_deg": 1.4697446242271042,
+       "endpoint_km": 12.494692210298558,
+       "forward_miss_km": 0.21015196747769266,
+       "gap_s": 96.18299999999999,
+       "implied_kmh": 467.65948199863607,
+       "position_miss_km": 0.19176096375932433,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 1.1453341124869085,
+        "position": 1.0032349459591086
+       },
+       "speed_diff_kmh": 7.911013330740673,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": -2.148569058446017,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-49d28583-b279-1634-9773-2800a9349669 already links to tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2",
+      "measurements": {
+       "altitude_diff_ft": 5225.148047825305,
+       "altitude_miss_ft": 5085.4071734478475,
+       "backward_miss_km": 0.6101613789342193,
+       "course_diff_deg": 0.7485891910347959,
+       "endpoint_km": 13.62313775815047,
+       "forward_miss_km": 0.7837060797501818,
+       "gap_s": 104.72399999999999,
+       "implied_kmh": 468.30999512377014,
+       "position_miss_km": 0.6969337293422005,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 1770.9912825238491,
+        "position": 11.206590810248798
+       },
+       "speed_diff_kmh": 2.1155431459647502,
+       "successor_reports": 11
+      },
+      "rank": 2,
+      "score": -1782.197873334098,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 2,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2: leads tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f -> tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2 by 172.387",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+   },
+   {
+    "accepted_successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+    "candidates": [
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e could come between them",
+      "measurements": {
+       "altitude_diff_ft": 486.8314765538671,
+       "altitude_miss_ft": 233.69372618198122,
+       "backward_miss_km": 0.6779667123814702,
+       "course_diff_deg": 0.1654072144153247,
+       "endpoint_km": 42.220510338680604,
+       "forward_miss_km": 0.6635634719070344,
+       "gap_s": 324.349,
+       "implied_kmh": 468.61201119550293,
+       "position_miss_km": 0.6707650921442523,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 0.3898758951571871,
+        "position": 1.1034799631072258
+       },
+       "speed_diff_kmh": 9.339421032938105,
+       "successor_reports": 15
+      },
+      "rank": 1,
+      "score": -1.493355858264413,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     },
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd by 43.702",
+      "measurements": {
+       "altitude_diff_ft": 276.4097003625284,
+       "altitude_miss_ft": 125.65720730687917,
+       "backward_miss_km": 0.24805614851910399,
+       "course_diff_deg": 1.1550003284283434,
+       "endpoint_km": 13.44246731810461,
+       "forward_miss_km": 0.36199571616394893,
+       "gap_s": 104.347,
+       "implied_kmh": 463.76879397756136,
+       "position_miss_km": 0.3050259323415265,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 1.089111331558814,
+        "position": 2.161979807578312
+       },
+       "speed_diff_kmh": 1.383422425527101,
+       "successor_reports": 14
+      },
+      "rank": 2,
+      "score": -3.2510911391371256,
+      "successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e could come between them",
+      "measurements": {
+       "altitude_diff_ft": 331.51634462084985,
+       "altitude_miss_ft": 1040.7571416693254,
+       "backward_miss_km": 2.261711369449901,
+       "course_diff_deg": 1.6351518386424289,
+       "endpoint_km": 70.84327315614802,
+       "forward_miss_km": 0.9150982358696969,
+       "gap_s": 545.675,
+       "implied_kmh": 467.3767047457422,
+       "position_miss_km": 1.5884048026597988,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 2.732046519670279,
+        "position": 2.194571791964949
+       },
+       "speed_diff_kmh": 1.4284077021974326,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": -4.926618311635227,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 4724.791025379351,
+       "altitude_miss_ft": 4357.897260529888,
+       "backward_miss_km": 0.6510356217320206,
+       "course_diff_deg": 0.9139964054501206,
+       "endpoint_km": 71.94878707779155,
+       "forward_miss_km": 0.916004837118365,
+       "gap_s": 554.216,
+       "implied_kmh": 467.3550267044791,
+       "position_miss_km": 0.7835202294251928,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 46.4358351137696,
+        "position": 0.5176963008975826
+       },
+       "speed_diff_kmh": 7.223877886973355,
+       "successor_reports": 11
+      },
+      "rank": 4,
+      "score": -46.95353141466718,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 4535.164607719014,
+       "altitude_miss_ft": 4764.854945622278,
+       "backward_miss_km": 0.602593961355729,
+       "course_diff_deg": 0.5385290067718245,
+       "endpoint_km": 44.03850423320922,
+       "forward_miss_km": 0.5659460485857248,
+       "gap_s": 338.84299999999996,
+       "implied_kmh": 467.8822204960799,
+       "position_miss_km": 0.5842700049707269,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 148.51138105257644,
+        "position": 0.7674539921140485
+       },
+       "speed_diff_kmh": 7.022769145810571,
+       "successor_reports": 13
+      },
+      "rank": 5,
+      "score": -149.27883504469048,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 4811.215337489926,
+       "altitude_miss_ft": 5003.850550517382,
+       "backward_miss_km": 0.10116635989817882,
+       "course_diff_deg": 0.04222030824854528,
+       "endpoint_km": 15.880827054383008,
+       "forward_miss_km": 0.3233873405599129,
+       "gap_s": 123.172,
+       "implied_kmh": 464.15563111566615,
+       "position_miss_km": 0.21227685022904585,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 1239.4872922668856,
+        "position": 0.7547962191016947
+       },
+       "speed_diff_kmh": 7.3628429723595445,
+       "successor_reports": 9
+      },
+      "rank": 6,
+      "score": -1240.2420884859873,
+      "successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 5324.690456452341,
+       "altitude_miss_ft": 5283.946442390977,
+       "backward_miss_km": 3.593726688015867,
+       "course_diff_deg": 2.9926683831046716,
+       "endpoint_km": 20.831328857701553,
+       "forward_miss_km": 5.970427172355537,
+       "gap_s": 117.04599999999999,
+       "implied_kmh": 640.7120609651384,
+       "position_miss_km": 4.782076930185702,
+       "predecessor_reports": 16,
+       "score_terms": {
+        "altitude": 1530.597733597271,
+        "position": 423.6563663574423
+       },
+       "speed_diff_kmh": 68.55977795902322,
+       "successor_reports": 12
+      },
+      "rank": 7,
+      "score": -1954.2540999547132,
+      "successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 10
+    },
+    "reason": "accepted tracklet-4988f186-83b6-51e6-b59d-513774b5e61e: leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd by 43.702",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+   },
+   {
+    "accepted_successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 219.6611182390152,
+       "altitude_miss_ft": 70.0109284609407,
+       "backward_miss_km": 0.26466540998964344,
+       "course_diff_deg": 0.40276700204944405,
+       "endpoint_km": 23.294633389765565,
+       "forward_miss_km": 0.34289196832638424,
+       "gap_s": 144.325,
+       "implied_kmh": 581.0544271827891,
+       "position_miss_km": 0.30377868915801387,
+       "predecessor_reports": 7,
+       "score_terms": {
+        "altitude": 0.17672823770695212,
+        "position": 1.129887043073833
+       },
+       "speed_diff_kmh": 4.329229679731725,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": -1.3066152807807851,
+      "successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-88a1d73d-4188-2250-25aa-25325111de11 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 397.25858605225585,
+       "altitude_miss_ft": 515.5738589752646,
+       "backward_miss_km": 0.6986447079530628,
+       "course_diff_deg": 0.3284109779957305,
+       "endpoint_km": 55.45180010653556,
+       "forward_miss_km": 0.6957600316915138,
+       "gap_s": 342.98199999999997,
+       "implied_kmh": 582.0319444855065,
+       "position_miss_km": 0.6972023698222882,
+       "predecessor_reports": 7,
+       "score_terms": {
+        "altitude": 1.697057379115638,
+        "position": 1.0667044926324065
+       },
+       "speed_diff_kmh": 2.316458259797969,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": -2.7637618717480446,
+      "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 10
+    },
+    "reason": "accepted tracklet-88a1d73d-4188-2250-25aa-25325111de11: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+   },
+   {
+    "accepted_successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 25.670913423609818,
+       "altitude_miss_ft": 112.25090646692843,
+       "backward_miss_km": 0.2887128149500216,
+       "course_diff_deg": 0.07435602405371355,
+       "endpoint_km": 13.861397289196498,
+       "forward_miss_km": 0.25989183110170294,
+       "gap_s": 86.154,
+       "implied_kmh": 579.2073524282957,
+       "position_miss_km": 0.27430232302586227,
+       "predecessor_reports": 14,
+       "score_terms": {
+        "altitude": 1.2749296656383522,
+        "position": 2.5492561543512258
+       },
+       "speed_diff_kmh": 2.012771419933756,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": -3.824185819989578,
+      "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 5
+    },
+    "reason": "accepted tracklet-b69bdaba-c068-687a-828f-edc2f5e05205: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+   },
+   {
+    "accepted_successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-97c73082-2aab-0792-5643-9cd74024ea78 -> tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2 by 78.848",
+      "measurements": {
+       "altitude_diff_ft": 149.9601105187685,
+       "altitude_miss_ft": 48.19001348918573,
+       "backward_miss_km": 0.13865668296545522,
+       "course_diff_deg": 0.7254110743109834,
+       "endpoint_km": 14.095863263882148,
+       "forward_miss_km": 0.042412432658879985,
+       "gap_s": 108.449,
+       "implied_kmh": 467.9167880752772,
+       "position_miss_km": 0.0905345578121676,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 0.1482929132266897,
+        "position": 0.1765176381919969
+       },
+       "speed_diff_kmh": 2.2454781573908917,
+       "successor_reports": 9
+      },
+      "rank": 1,
+      "score": -0.3248105514186866,
+      "successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f could come between them",
+      "measurements": {
+       "altitude_diff_ft": 426.01084028968035,
+       "altitude_miss_ft": 336.4768788103156,
+       "backward_miss_km": 0.6757409568361544,
+       "course_diff_deg": 1.2217197728342626,
+       "endpoint_km": 42.25344508090545,
+       "forward_miss_km": 0.2184538460777229,
+       "gap_s": 324.12,
+       "implied_kmh": 469.30890500820567,
+       "position_miss_km": 0.44709740145693866,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 0.8093869502276213,
+        "position": 0.4909513258907851
+       },
+       "speed_diff_kmh": 1.9054043308419182,
+       "successor_reports": 13
+      },
+      "rank": 2,
+      "score": -1.3003382761184064,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f could come between them",
+      "measurements": {
+       "altitude_diff_ft": 236.38442262934404,
+       "altitude_miss_ft": 1282.9121718997194,
+       "backward_miss_km": 0.7135235535632032,
+       "course_diff_deg": 1.5971871715125587,
+       "endpoint_km": 70.16311731924412,
+       "forward_miss_km": 1.0612116618581744,
+       "gap_s": 539.4929999999999,
+       "implied_kmh": 468.1936973218909,
+       "position_miss_km": 0.8873676077106888,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 4.246974251973863,
+        "position": 0.7006535992583816
+       },
+       "speed_diff_kmh": 2.1065130720047023,
+       "successor_reports": 11
+      },
+      "rank": 3,
+      "score": -4.9476278512322445,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78 already links to tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+      "measurements": {
+       "altitude_diff_ft": 5292.691792629545,
+       "altitude_miss_ft": 5394.259165461146,
+       "backward_miss_km": 2.223474771957856,
+       "course_diff_deg": 2.318342604704867,
+       "endpoint_km": 69.0580202402903,
+       "forward_miss_km": 0.4596150569521865,
+       "gap_s": 530.952,
+       "implied_kmh": 468.2322938138383,
+       "position_miss_km": 1.341544914455021,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 77.51941721163428,
+        "position": 1.6532116323031851
+       },
+       "speed_diff_kmh": 3.68895711277122,
+       "successor_reports": 10
+      },
+      "rank": 4,
+      "score": -79.17262884393746,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78 already links to tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+      "measurements": {
+       "altitude_diff_ft": 5448.006924562562,
+       "altitude_miss_ft": 5124.874112548157,
+       "backward_miss_km": 0.7887273209891198,
+       "course_diff_deg": 0.8485979804777628,
+       "endpoint_km": 40.43589681215159,
+       "forward_miss_km": 0.1959637281158902,
+       "gap_s": 309.626,
+       "implied_kmh": 470.14536416110315,
+       "position_miss_km": 0.492345524552505,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 205.7543207816006,
+        "position": 0.6521101365019735
+       },
+       "speed_diff_kmh": 4.2220562179694525,
+       "successor_reports": 15
+      },
+      "rank": 5,
+      "score": -206.40643091810256,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78 already links to tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+      "measurements": {
+       "altitude_diff_ft": 5237.585148371223,
+       "altitude_miss_ft": 5084.516575541563,
+       "backward_miss_km": 0.10424177308021425,
+       "course_diff_deg": 0.4718095623659053,
+       "endpoint_km": 11.658584637980827,
+       "forward_miss_km": 0.1437401708883587,
+       "gap_s": 89.624,
+       "implied_kmh": 468.2998381765038,
+       "position_miss_km": 0.12399097198428646,
+       "predecessor_reports": 15,
+       "score_terms": {
+        "altitude": 2417.175000010811,
+        "position": 0.48197089212556915
+       },
+       "speed_diff_kmh": 3.7339423894415518,
+       "successor_reports": 14
+      },
+      "rank": 6,
+      "score": -2417.6569709029363,
+      "successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 11
+    },
+    "reason": "accepted tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f: leads tracklet-97c73082-2aab-0792-5643-9cd74024ea78 -> tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2 by 78.848",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78"
+   },
+   {
+    "accepted_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 320.1157005648711,
+       "altitude_miss_ft": 743.8465304312103,
+       "backward_miss_km": 0.8890879510986741,
+       "course_diff_deg": 1.065355739109691,
+       "endpoint_km": 47.80383371221234,
+       "forward_miss_km": 0.43195373576635926,
+       "gap_s": 346.461,
+       "implied_kmh": 496.7191151788063,
+       "position_miss_km": 0.6605208434325167,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 3.461906857226377,
+        "position": 0.9383653159948571
+       },
+       "speed_diff_kmh": 2.2138054865961294,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": -4.400272173221234,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 106.5535827158019,
+       "altitude_miss_ft": 925.576831080969,
+       "backward_miss_km": 5.2507362782457525,
+       "course_diff_deg": 3.8174558189185177,
+       "endpoint_km": 78.62171462963326,
+       "forward_miss_km": 0.6108927166190354,
+       "gap_s": 568.781,
+       "implied_kmh": 497.62241120339775,
+       "position_miss_km": 2.9308144974323938,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 1.98880495659018,
+        "position": 6.878284992438714
+       },
+       "speed_diff_kmh": 12.957573515536296,
+       "successor_reports": 9
+      },
+      "rank": 2,
+      "score": -8.867089949028895,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 4266.899294231662,
+       "altitude_miss_ft": 4707.3631872487485,
+       "backward_miss_km": 1.6262227281866137,
+       "course_diff_deg": 3.159890410860555,
+       "endpoint_km": 77.05896101346228,
+       "forward_miss_km": 2.9777204913080015,
+       "gap_s": 549.66,
+       "implied_kmh": 504.6979217124481,
+       "position_miss_km": 2.3019716097473077,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 55.083883515657796,
+        "position": 4.542811297343441
+       },
+       "speed_diff_kmh": 0.3205540410655203,
+       "successor_reports": 21
+      },
+      "rank": 3,
+      "score": -59.62669481300124,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 already links to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "measurements": {
+       "altitude_diff_ft": 3891.8422747177738,
+       "altitude_miss_ft": 3849.3087091431235,
+       "backward_miss_km": 1.340250171721351,
+       "course_diff_deg": 3.086943546780816,
+       "endpoint_km": 46.62958890409121,
+       "forward_miss_km": 1.322923193937029,
+       "gap_s": 332.264,
+       "implied_kmh": 505.2203069087483,
+       "position_miss_km": 1.33158668282919,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 100.79902034705584,
+        "position": 4.144933962692479
+       },
+       "speed_diff_kmh": 2.1437289758738984,
+       "successor_reports": 15
+      },
+      "rank": 4,
+      "score": -104.94395430974832,
+      "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 already links to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "measurements": {
+       "altitude_diff_ft": 3512.2692146974823,
+       "altitude_miss_ft": 3540.4875141114007,
+       "backward_miss_km": 1.1140316337749088,
+       "course_diff_deg": 2.9003887017557872,
+       "endpoint_km": 16.012489552298646,
+       "forward_miss_km": 0.3335860102600533,
+       "gap_s": 113.829,
+       "implied_kmh": 506.4171905953239,
+       "position_miss_km": 0.723808822017481,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 726.5703949924176,
+        "position": 10.254645538375458
+       },
+       "speed_diff_kmh": 4.323636284058978,
+       "successor_reports": 10
+      },
+      "rank": 5,
+      "score": -736.8250405307931,
+      "successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 12
+    },
+    "reason": "accepted tracklet-1d397900-b14a-53fe-12ba-345ed48f2666: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+   },
+   {
+    "accepted_successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb",
+    "candidates": [
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb could come between them",
+      "measurements": {
+       "altitude_diff_ft": 532.577729153667,
+       "altitude_miss_ft": 52.66870518212545,
+       "backward_miss_km": 0.399386113613069,
+       "course_diff_deg": 0.8240902152456044,
+       "endpoint_km": 55.61762283658854,
+       "forward_miss_km": 0.8988249067078028,
+       "gap_s": 343.971,
+       "implied_kmh": 582.0939620250508,
+       "position_miss_km": 0.6491055101604359,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 0.01760836492773106,
+        "position": 0.9193206977836176
+       },
+       "speed_diff_kmh": 1.7702397753836294,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": -0.9369290627113487,
+      "successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb could come between them",
+      "measurements": {
+       "altitude_diff_ft": 710.1751969669076,
+       "altitude_miss_ft": 649.8346426258449,
+       "backward_miss_km": 0.9775301144910261,
+       "course_diff_deg": 0.8984462392992896,
+       "endpoint_km": 87.77399919527302,
+       "forward_miss_km": 1.4845647955515586,
+       "gap_s": 542.6279999999999,
+       "implied_kmh": 582.3260080625823,
+       "position_miss_km": 1.2310474550212924,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 1.0771066932421787,
+        "position": 1.3329907893506974
+       },
+       "speed_diff_kmh": 0.24253164455012666,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": -2.4100974825928763,
+      "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+     },
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 100.30827076232708,
+       "altitude_miss_ft": 96.1967145827366,
+       "backward_miss_km": 0.5179790384710289,
+       "course_diff_deg": 1.2268572172950485,
+       "endpoint_km": 16.543872828200737,
+       "forward_miss_km": 0.30761554236261235,
+       "gap_s": 103.329,
+       "implied_kmh": 576.3913536521467,
+       "position_miss_km": 0.4127972904168206,
+       "predecessor_reports": 10,
+       "score_terms": {
+        "altitude": 0.6509287168560851,
+        "position": 4.036865332161653
+       },
+       "speed_diff_kmh": 2.5589899043480955,
+       "successor_reports": 7
+      },
+      "rank": 3,
+      "score": -4.6877940490177386,
+      "successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 14
+    },
+    "reason": "accepted tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-c0fe73d2-c2bc-8fb5-c015-ab06a7132a4f"
+   },
+   {
+    "accepted_successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1",
+    "candidates": [
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 90.16249393591715,
+       "altitude_miss_ft": 490.4662844136292,
+       "backward_miss_km": 1.489055346666408,
+       "course_diff_deg": 1.5030497071292075,
+       "endpoint_km": 48.62584162876494,
+       "forward_miss_km": 0.17662439100348146,
+       "gap_s": 324.188,
+       "implied_kmh": 539.9738110712111,
+       "position_miss_km": 0.8328398688349448,
+       "predecessor_reports": 12,
+       "score_terms": {
+        "altitude": 1.719023649472833,
+        "position": 1.702847678275979
+       },
+       "speed_diff_kmh": 3.972938534304376,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": -3.421871327748812,
+      "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+     },
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 200.11457193300157,
+       "altitude_miss_ft": 230.90123921198756,
+       "backward_miss_km": 0.36759715545341876,
+       "course_diff_deg": 0.1703197574398132,
+       "endpoint_km": 18.134719979959467,
+       "forward_miss_km": 0.28607533033202986,
+       "gap_s": 121.6,
+       "implied_kmh": 536.8831573014317,
+       "position_miss_km": 0.3268362428927243,
+       "predecessor_reports": 12,
+       "score_terms": {
+        "altitude": 2.707963350877197,
+        "position": 1.8352898699988227
+       },
+       "speed_diff_kmh": 0.9354852882414662,
+       "successor_reports": 13
+      },
+      "rank": 2,
+      "score": -4.54325322087602,
+      "successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 10
+    },
+    "reason": "accepted tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+   }
+  ],
+  "version": "baseline-46053766c2c3"
+ },
+ "learned": {
+  "config": {
+   "candidates": {
+    "max_gap_s": 600.0,
+    "max_implied_kmh": 1100.0,
+    "max_projection_km": 5.0
+   },
+   "features": [
+    "gap_s",
+    "forward_miss_km",
+    "backward_miss_km",
+    "altitude_miss_ft",
+    "speed_diff_kmh"
+   ],
+   "max_course_diff_deg": 15.0,
+   "max_directional_miss_km": 3.0,
+   "min_reports_for_motion": 3
+  },
+  "input_fingerprint": "644790d17c36ab3bf2653baa49b548b3776a79a6bcf30210bac8a562a0845417",
+  "links": {
+   "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+   "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+   "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976",
+   "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd",
+   "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de",
+   "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+   "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+   "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144",
+   "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e": "tracklet-49d28583-b279-1634-9773-2800a9349669",
+   "tracklet-49d28583-b279-1634-9773-2800a9349669": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2",
+   "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+   "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb": "tracklet-88a1d73d-4188-2250-25aa-25325111de11",
+   "tracklet-88a1d73d-4188-2250-25aa-25325111de11": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205",
+   "tracklet-97c73082-2aab-0792-5643-9cd74024ea78": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+   "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+   "tracklet-c0fe73d2-c2bc-8fb5-c015-ab06a7132a4f": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb",
+   "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+  },
+  "method": "learned",
+  "policy": {
+   "min_margin": 0.05,
+   "min_score": 0.01,
+   "plausible_score": 0.01
+  },
+  "receipt_cutoff": "2026-06-09T00:20:00.000Z",
+  "scenario_id": "scenario-9a73ad2b-a6a6-5fa0-a1c7-bd1d0ca2be68",
+  "snapshot_id": "snapshot-0f61d5f0-f016-67ba-4361-759ffcd768ad",
+  "tracklets": [
+   {
+    "accepted_successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 253.38628495629018,
+       "altitude_miss_ft": 82.43507663725723,
+       "backward_miss_km": 0.3120255022515372,
+       "course_diff_deg": 0.0685675756801345,
+       "endpoint_km": 15.699849404867894,
+       "forward_miss_km": 0.3495590863092688,
+       "gap_s": 105.46499999999999,
+       "implied_kmh": 535.9072474994019,
+       "position_miss_km": 0.330792294280403,
+       "predecessor_reports": 12,
+       "speed_diff_kmh": 1.9832835860163414,
+       "successor_reports": 12
+      },
+      "rank": 1,
+      "score": 0.9895550781658744,
+      "successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 673.7390577511214,
+       "altitude_miss_ft": 765.3305067916463,
+       "backward_miss_km": 0.8385933937954532,
+       "course_diff_deg": 0.1017521817596787,
+       "endpoint_km": 49.26356425902688,
+       "forward_miss_km": 0.6963864597713606,
+       "gap_s": 329.548,
+       "implied_kmh": 538.1578141348052,
+       "position_miss_km": 0.7674899267834069,
+       "predecessor_reports": 12,
+       "speed_diff_kmh": 1.0477982977748752,
+       "successor_reports": 13
+      },
+      "rank": 2,
+      "score": 0.04504510139568289,
+      "successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 383.4619918822027,
+       "altitude_miss_ft": 524.0547274758956,
+       "backward_miss_km": 2.6473657620001356,
+       "course_diff_deg": 1.434482131449073,
+       "endpoint_km": 79.75490391706958,
+       "forward_miss_km": 0.6582252812644596,
+       "gap_s": 532.136,
+       "implied_kmh": 539.5569066957516,
+       "position_miss_km": 1.6527955216322976,
+       "predecessor_reports": 12,
+       "speed_diff_kmh": 5.956222120320717,
+       "successor_reports": 14
+      },
+      "rank": 3,
+      "score": 0.001780067802652953,
+      "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+     },
+     {
+      "decision": "physically_inconsistent",
+      "decision_detail": "forward projection misses by 5.36 km; the limit is 3.0 km",
+      "measurements": {
+       "altitude_diff_ft": 7460.976696130976,
+       "altitude_miss_ft": 7603.7704486618395,
+       "backward_miss_km": 4.19062968780624,
+       "course_diff_deg": 3.162926046994386,
+       "endpoint_km": 16.33527977846142,
+       "forward_miss_km": 5.358802384763038,
+       "gap_s": 86.536,
+       "implied_kmh": 679.5669686888823,
+       "position_miss_km": 4.774716036284639,
+       "predecessor_reports": 12,
+       "speed_diff_kmh": 45.84274458404627,
+       "successor_reports": 7
+      },
+      "rank": 4,
+      "score": 1.1886947572558385e-05,
+      "successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 13
+    },
+    "reason": "accepted tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c"
+   },
+   {
+    "accepted_successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 by 0.989",
+      "measurements": {
+       "altitude_diff_ft": 133.28119720898394,
+       "altitude_miss_ft": 115.5811093389766,
+       "backward_miss_km": 0.3823934832669048,
+       "course_diff_deg": 0.4963086985233076,
+       "endpoint_km": 17.123179415195654,
+       "forward_miss_km": 0.2977036340133945,
+       "gap_s": 130.44,
+       "implied_kmh": 472.5808486254551,
+       "position_miss_km": 0.34004855864014966,
+       "predecessor_reports": 9,
+       "speed_diff_kmh": 0.34007382654897356,
+       "successor_reports": 13
+      },
+      "rank": 1,
+      "score": 0.9902733483910315,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 56.34522045135236,
+       "altitude_miss_ft": 769.7651984256354,
+       "backward_miss_km": 0.3164056875915173,
+       "course_diff_deg": 0.8717760972015753,
+       "endpoint_km": 45.03501598245069,
+       "forward_miss_km": 0.47066244831412146,
+       "gap_s": 345.813,
+       "implied_kmh": 468.82580335852754,
+       "position_miss_km": 0.3935340679528194,
+       "predecessor_reports": 9,
+       "speed_diff_kmh": 0.13896508538618946,
+       "successor_reports": 11
+      },
+      "rank": 2,
+      "score": 0.10647728234882199,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f already links to tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+      "measurements": {
+       "altitude_diff_ft": 4999.962149548848,
+       "altitude_miss_ft": 5115.758064691497,
+       "backward_miss_km": 1.3967984495978785,
+       "course_diff_deg": 1.5929315303938836,
+       "endpoint_km": 43.92777861941085,
+       "forward_miss_km": 0.35769989518465023,
+       "gap_s": 337.272,
+       "implied_kmh": 468.87972624433417,
+       "position_miss_km": 0.8772491723912643,
+       "predecessor_reports": 9,
+       "speed_diff_kmh": 5.934435270162112,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": 0.001925962073228955,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f already links to tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+      "measurements": {
+       "altitude_diff_ft": 5155.277281481865,
+       "altitude_miss_ft": 5051.901568176472,
+       "backward_miss_km": 0.5752237464750289,
+       "course_diff_deg": 0.12318690616677941,
+       "endpoint_km": 15.307756511620541,
+       "forward_miss_km": 0.5223484706739014,
+       "gap_s": 115.946,
+       "implied_kmh": 475.28956101835286,
+       "position_miss_km": 0.5487861085744652,
+       "predecessor_reports": 9,
+       "speed_diff_kmh": 1.9765780605785608,
+       "successor_reports": 15
+      },
+      "rank": 4,
+      "score": 0.0011618112260190735,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 8
+    },
+    "reason": "accepted tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6: leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 by 0.989",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+   },
+   {
+    "accepted_successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 157.21079459831162,
+       "altitude_miss_ft": 82.97326157525367,
+       "backward_miss_km": 1.2447785787380883,
+       "course_diff_deg": 2.7521000798088266,
+       "endpoint_km": 16.26304672511246,
+       "forward_miss_km": 0.4177185808496923,
+       "gap_s": 117.336,
+       "implied_kmh": 498.9685025090753,
+       "position_miss_km": 0.8312485797938903,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 10.743768028940167,
+       "successor_reports": 9
+      },
+      "rank": 1,
+      "score": 0.9568939583177156,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 already links to tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976",
+      "measurements": {
+       "altitude_diff_ft": 4317.5565061141715,
+       "altitude_miss_ft": 4185.393877289081,
+       "backward_miss_km": 1.9383297595520015,
+       "course_diff_deg": 2.0945346717508357,
+       "endpoint_km": 14.8417788552285,
+       "forward_miss_km": 2.404146486120076,
+       "gap_s": 98.21499999999999,
+       "implied_kmh": 544.0147012047305,
+       "position_miss_km": 2.171238122836039,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 1.893251445530609,
+       "successor_reports": 21
+      },
+      "rank": 2,
+      "score": 7.237865746839265e-05,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 1,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+   },
+   {
+    "accepted_successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd by 0.988",
+      "measurements": {
+       "altitude_diff_ft": 178.80752599762855,
+       "altitude_miss_ft": 139.2582107768576,
+       "backward_miss_km": 0.26601361068782936,
+       "course_diff_deg": 0.3754673986782677,
+       "endpoint_km": 13.481653210912398,
+       "forward_miss_km": 0.34548292090694255,
+       "gap_s": 103.934,
+       "implied_kmh": 466.9689568311105,
+       "position_miss_km": 0.30574826579738595,
+       "predecessor_reports": 13,
+       "speed_diff_kmh": 0.2011087411627841,
+       "successor_reports": 11
+      },
+      "rank": 1,
+      "score": 0.9884495025911836,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 already links to tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd",
+      "measurements": {
+       "altitude_diff_ft": 4877.499844002572,
+       "altitude_miss_ft": 4994.777652485884,
+       "backward_miss_km": 0.4910306977991099,
+       "course_diff_deg": 1.0966228318706044,
+       "endpoint_km": 12.368062144565664,
+       "forward_miss_km": 0.23747769755456385,
+       "gap_s": 95.393,
+       "implied_kmh": 466.75357437585984,
+       "position_miss_km": 0.36425419767683687,
+       "predecessor_reports": 13,
+       "speed_diff_kmh": 5.594361443613138,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": 0.0011288264997429676,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 2,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd: leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd by 0.988",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+   },
+   {
+    "accepted_successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de by 0.997",
+      "measurements": {
+       "altitude_diff_ft": 160.74829051188317,
+       "altitude_miss_ft": 101.61607716677281,
+       "backward_miss_km": 0.12736256527322293,
+       "course_diff_deg": 0.07294686407973927,
+       "endpoint_km": 15.32054501708773,
+       "forward_miss_km": 0.06270851344057747,
+       "gap_s": 109.341,
+       "implied_kmh": 504.4215990480773,
+       "position_miss_km": 0.0950355393569002,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 2.4642830169394188,
+       "successor_reports": 21
+      },
+      "rank": 1,
+      "score": 0.9973849338772104,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a already links to tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de",
+      "measurements": {
+       "altitude_diff_ft": 3999.5974210039767,
+       "altitude_miss_ft": 4225.08811784878,
+       "backward_miss_km": 2.9869414309819295,
+       "course_diff_deg": 0.7305122721377302,
+       "endpoint_km": 17.01466198831513,
+       "forward_miss_km": 2.9182686720628475,
+       "gap_s": 128.462,
+       "implied_kmh": 476.8163593742467,
+       "position_miss_km": 2.9526050515223883,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 15.101302491410195,
+       "successor_reports": 9
+      },
+      "rank": 2,
+      "score": 2.3914152471117544e-05,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 1,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de: leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de by 0.997",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+   },
+   {
+    "accepted_successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a by 0.996",
+      "measurements": {
+       "altitude_diff_ft": 263.2068499128818,
+       "altitude_miss_ft": 63.97704527125734,
+       "backward_miss_km": 0.09701250125303976,
+       "course_diff_deg": 0.1865548450250003,
+       "endpoint_km": 17.365596231700415,
+       "forward_miss_km": 0.046744114312977605,
+       "gap_s": 123.94399999999999,
+       "implied_kmh": 504.39026039277013,
+       "position_miss_km": 0.07187830778300869,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 2.1799073081850793,
+       "successor_reports": 15
+      },
+      "rank": 1,
+      "score": 0.997572070903706,
+      "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 638.2638694267698,
+       "altitude_miss_ft": 406.81222996000633,
+       "backward_miss_km": 0.35031382430422875,
+       "course_diff_deg": 0.2595017091047396,
+       "endpoint_km": 47.7995672474602,
+       "forward_miss_km": 0.11663164762342754,
+       "gap_s": 341.34,
+       "implied_kmh": 504.126214597928,
+       "position_miss_km": 0.23347273596382814,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 4.644190325124498,
+       "successor_reports": 21
+      },
+      "rank": 2,
+      "score": 0.06509445684021828,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 already links to tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+      "measurements": {
+       "altitude_diff_ft": 3948.751125369763,
+       "altitude_miss_ft": 4211.092500940512,
+       "backward_miss_km": 0.8911357967267095,
+       "course_diff_deg": 1.8350329626460962,
+       "endpoint_km": 18.538453499449467,
+       "forward_miss_km": 1.4989835457972538,
+       "gap_s": 138.141,
+       "implied_kmh": 483.1182096410051,
+       "position_miss_km": 1.1950596712619816,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 6.537441770655107,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": 0.0005809007891675905,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     {
+      "decision": "physically_inconsistent",
+      "decision_detail": "backward projection misses by 3.48 km; the limit is 3.0 km",
+      "measurements": {
+       "altitude_diff_ft": 3522.08184208909,
+       "altitude_miss_ft": 4019.3011488201328,
+       "backward_miss_km": 3.475718227989899,
+       "course_diff_deg": 0.9170671171627305,
+       "endpoint_km": 49.35457507736075,
+       "forward_miss_km": 2.866216206655157,
+       "gap_s": 360.46099999999996,
+       "implied_kmh": 492.91454631291236,
+       "position_miss_km": 3.170967217322528,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 17.281209799595274,
+       "successor_reports": 9
+      },
+      "rank": 4,
+      "score": 4.519025792345945e-05,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 8
+    },
+    "reason": "accepted tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a: leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a by 0.996",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+   },
+   {
+    "accepted_successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 by 0.996",
+      "measurements": {
+       "altitude_diff_ft": 72.70296226532082,
+       "altitude_miss_ft": 119.7129932760281,
+       "backward_miss_km": 0.14450490132721144,
+       "course_diff_deg": 0.23958006752178562,
+       "endpoint_km": 14.605204481578983,
+       "forward_miss_km": 0.15056502209280764,
+       "gap_s": 103.892,
+       "implied_kmh": 506.09032585458306,
+       "position_miss_km": 0.14753496171000954,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 4.0268799650487495,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": 0.9967353793942988,
+      "successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 452.27602228561227,
+       "altitude_miss_ft": 492.5785826232923,
+       "backward_miss_km": 0.3791941438376646,
+       "course_diff_deg": 0.4261349125467859,
+       "endpoint_km": 45.24515651913644,
+       "forward_miss_km": 0.37365866149200433,
+       "gap_s": 322.327,
+       "implied_kmh": 505.333290319741,
+       "position_miss_km": 0.37642640266483446,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 1.8469726568636702,
+       "successor_reports": 15
+      },
+      "rank": 2,
+      "score": 0.030336676282663188,
+      "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828 already links to tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+      "measurements": {
+       "altitude_diff_ft": 3759.6819529970326,
+       "altitude_miss_ft": 4010.9984183293527,
+       "backward_miss_km": 0.32553034392345936,
+       "course_diff_deg": 1.5954528951243105,
+       "endpoint_km": 46.3964540862915,
+       "forward_miss_km": 1.201295110581967,
+       "gap_s": 336.524,
+       "implied_kmh": 496.3308254705442,
+       "position_miss_km": 0.7634127272527131,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 2.5105618056063577,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": 0.0009712351478422139,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a could come between them",
+      "measurements": {
+       "altitude_diff_ft": 827.3330417995003,
+       "altitude_miss_ft": 1083.2779698948252,
+       "backward_miss_km": 0.7334768024162199,
+       "course_diff_deg": 0.4990817766265252,
+       "endpoint_km": 75.67910491444498,
+       "forward_miss_km": 0.6585637010502634,
+       "gap_s": 539.723,
+       "implied_kmh": 504.7863027738339,
+       "position_miss_km": 0.6960202517332417,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 0.6173103600757486,
+       "successor_reports": 21
+      },
+      "rank": 4,
+      "score": 0.00015816948575766453,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "physically_inconsistent",
+      "decision_detail": "backward projection misses by 4.29 km; the limit is 3.0 km",
+      "measurements": {
+       "altitude_diff_ft": 3333.0126697163596,
+       "altitude_miss_ft": 3459.9346752410147,
+       "backward_miss_km": 4.2850098103005365,
+       "course_diff_deg": 1.156647184684516,
+       "endpoint_km": 77.21065794795447,
+       "forward_miss_km": 2.371174923542989,
+       "gap_s": 558.8439999999999,
+       "implied_kmh": 497.38096608827533,
+       "position_miss_km": 3.328092366921763,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 13.254329834546525,
+       "successor_reports": 9
+      },
+      "rank": 5,
+      "score": 1.6104791873019743e-05,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 12
+    },
+    "reason": "accepted tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788: leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 by 0.996",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828"
+   },
+   {
+    "accepted_successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 103.220969151178,
+       "altitude_miss_ft": 34.40027935691978,
+       "backward_miss_km": 0.32366649787387614,
+       "course_diff_deg": 1.3327299496893943,
+       "endpoint_km": 13.380499762577566,
+       "forward_miss_km": 0.059405218964105534,
+       "gap_s": 89.131,
+       "implied_kmh": 540.4382217778241,
+       "position_miss_km": 0.19153585841899085,
+       "predecessor_reports": 13,
+       "speed_diff_kmh": 4.908423822545842,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": 0.9957406926827543,
+      "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 5
+    },
+    "reason": "accepted tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+   },
+   {
+    "accepted_successor": "tracklet-49d28583-b279-1634-9773-2800a9349669",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-4988f186-83b6-51e6-b59d-513774b5e61e -> tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 by 0.993",
+      "measurements": {
+       "altitude_diff_ft": 66.84363609144384,
+       "altitude_miss_ft": 79.75341808240046,
+       "backward_miss_km": 0.19566952699195062,
+       "course_diff_deg": 1.3204075428436681,
+       "endpoint_km": 15.674784449629668,
+       "forward_miss_km": 0.32983761388448074,
+       "gap_s": 120.06099999999999,
+       "implied_kmh": 470.0046144765311,
+       "position_miss_km": 0.2627535704382157,
+       "predecessor_reports": 14,
+       "speed_diff_kmh": 7.955998607411004,
+       "successor_reports": 15
+      },
+      "rank": 1,
+      "score": 0.9956270799459264,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-49d28583-b279-1634-9773-2800a9349669 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 88.47149584157341,
+       "altitude_miss_ft": 648.3588045561364,
+       "backward_miss_km": 1.0574833876840681,
+       "course_diff_deg": 2.7901521670707723,
+       "endpoint_km": 44.301515552460636,
+       "forward_miss_km": 1.2177322381124507,
+       "gap_s": 341.387,
+       "implied_kmh": 467.1690954513742,
+       "position_miss_km": 1.1376078128982594,
+       "predecessor_reports": 14,
+       "speed_diff_kmh": 0.044985276670331587,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": 0.14756282221938744,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e already links to tracklet-49d28583-b279-1634-9773-2800a9349669",
+      "measurements": {
+       "altitude_diff_ft": 4955.152448181438,
+       "altitude_miss_ft": 5045.273719256074,
+       "backward_miss_km": 0.1263868193358346,
+       "course_diff_deg": 1.6935293352001963,
+       "endpoint_km": 17.497203358994934,
+       "forward_miss_km": 0.6326371022899958,
+       "gap_s": 134.555,
+       "implied_kmh": 468.13520190540487,
+       "position_miss_km": 0.3795119608129152,
+       "predecessor_reports": 14,
+       "speed_diff_kmh": 5.63934672028347,
+       "successor_reports": 13
+      },
+      "rank": 3,
+      "score": 0.0026691679449239924,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e already links to tracklet-49d28583-b279-1634-9773-2800a9349669",
+      "measurements": {
+       "altitude_diff_ft": 5144.778865841774,
+       "altitude_miss_ft": 4910.29252586968,
+       "backward_miss_km": 0.21554478038343872,
+       "course_diff_deg": 2.068996733878464,
+       "endpoint_km": 45.414338759562504,
+       "forward_miss_km": 1.807978026278692,
+       "gap_s": 349.928,
+       "implied_kmh": 467.21502576079934,
+       "position_miss_km": 1.0117614033310653,
+       "predecessor_reports": 14,
+       "speed_diff_kmh": 5.840455461446254,
+       "successor_reports": 11
+      },
+      "rank": 4,
+      "score": 0.0008047025810159807,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 8
+    },
+    "reason": "accepted tracklet-49d28583-b279-1634-9773-2800a9349669: leads tracklet-4988f186-83b6-51e6-b59d-513774b5e61e -> tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6 by 0.993",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+   },
+   {
+    "accepted_successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f -> tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2 by 0.995",
+      "measurements": {
+       "altitude_diff_ft": 168.84067782510465,
+       "altitude_miss_ft": 118.77791961000094,
+       "backward_miss_km": 0.17336996004095603,
+       "course_diff_deg": 1.4697446242271042,
+       "endpoint_km": 12.494692210298558,
+       "forward_miss_km": 0.21015196747769266,
+       "gap_s": 96.18299999999999,
+       "implied_kmh": 467.65948199863607,
+       "position_miss_km": 0.19176096375932433,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 7.911013330740673,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": 0.9973748560146573,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-49d28583-b279-1634-9773-2800a9349669 already links to tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2",
+      "measurements": {
+       "altitude_diff_ft": 5225.148047825305,
+       "altitude_miss_ft": 5085.4071734478475,
+       "backward_miss_km": 0.6101613789342193,
+       "course_diff_deg": 0.7485891910347959,
+       "endpoint_km": 13.62313775815047,
+       "forward_miss_km": 0.7837060797501818,
+       "gap_s": 104.72399999999999,
+       "implied_kmh": 468.30999512377014,
+       "position_miss_km": 0.6969337293422005,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 2.1155431459647502,
+       "successor_reports": 11
+      },
+      "rank": 2,
+      "score": 0.001044617014935028,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     }
+    ],
+    "gated_out": {
+     "implied_speed_too_high": 2,
+     "projection_miss_too_large": 4
+    },
+    "reason": "accepted tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2: leads tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f -> tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2 by 0.995",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+   },
+   {
+    "accepted_successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 276.4097003625284,
+       "altitude_miss_ft": 125.65720730687917,
+       "backward_miss_km": 0.24805614851910399,
+       "course_diff_deg": 1.1550003284283434,
+       "endpoint_km": 13.44246731810461,
+       "forward_miss_km": 0.36199571616394893,
+       "gap_s": 104.347,
+       "implied_kmh": 463.76879397756136,
+       "position_miss_km": 0.3050259323415265,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 1.383422425527101,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": 0.9850673543706634,
+      "successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e could come between them",
+      "measurements": {
+       "altitude_diff_ft": 486.8314765538671,
+       "altitude_miss_ft": 233.69372618198122,
+       "backward_miss_km": 0.6779667123814702,
+       "course_diff_deg": 0.1654072144153247,
+       "endpoint_km": 42.220510338680604,
+       "forward_miss_km": 0.6635634719070344,
+       "gap_s": 324.349,
+       "implied_kmh": 468.61201119550293,
+       "position_miss_km": 0.6707650921442523,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 9.339421032938105,
+       "successor_reports": 15
+      },
+      "rank": 2,
+      "score": 0.19272954759368077,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 4811.215337489926,
+       "altitude_miss_ft": 5003.850550517382,
+       "backward_miss_km": 0.10116635989817882,
+       "course_diff_deg": 0.04222030824854528,
+       "endpoint_km": 15.880827054383008,
+       "forward_miss_km": 0.3233873405599129,
+       "gap_s": 123.172,
+       "implied_kmh": 464.15563111566615,
+       "position_miss_km": 0.21227685022904585,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 7.3628429723595445,
+       "successor_reports": 9
+      },
+      "rank": 3,
+      "score": 0.005860925933947452,
+      "successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 4535.164607719014,
+       "altitude_miss_ft": 4764.854945622278,
+       "backward_miss_km": 0.602593961355729,
+       "course_diff_deg": 0.5385290067718245,
+       "endpoint_km": 44.03850423320922,
+       "forward_miss_km": 0.5659460485857248,
+       "gap_s": 338.84299999999996,
+       "implied_kmh": 467.8822204960799,
+       "position_miss_km": 0.5842700049707269,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 7.022769145810571,
+       "successor_reports": 13
+      },
+      "rank": 4,
+      "score": 0.0008929601126144504,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f already links to tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+      "measurements": {
+       "altitude_diff_ft": 4724.791025379351,
+       "altitude_miss_ft": 4357.897260529888,
+       "backward_miss_km": 0.6510356217320206,
+       "course_diff_deg": 0.9139964054501206,
+       "endpoint_km": 71.94878707779155,
+       "forward_miss_km": 0.916004837118365,
+       "gap_s": 554.216,
+       "implied_kmh": 467.3550267044791,
+       "position_miss_km": 0.7835202294251928,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 7.223877886973355,
+       "successor_reports": 11
+      },
+      "rank": 5,
+      "score": 7.572713262167637e-05,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e could come between them",
+      "measurements": {
+       "altitude_diff_ft": 331.51634462084985,
+       "altitude_miss_ft": 1040.7571416693254,
+       "backward_miss_km": 2.261711369449901,
+       "course_diff_deg": 1.6351518386424289,
+       "endpoint_km": 70.84327315614802,
+       "forward_miss_km": 0.9150982358696969,
+       "gap_s": 545.675,
+       "implied_kmh": 467.3767047457422,
+       "position_miss_km": 1.5884048026597988,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 1.4284077021974326,
+       "successor_reports": 10
+      },
+      "rank": 6,
+      "score": 7.352016833543316e-05,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     },
+     {
+      "decision": "physically_inconsistent",
+      "decision_detail": "forward projection misses by 5.97 km; the limit is 3.0 km",
+      "measurements": {
+       "altitude_diff_ft": 5324.690456452341,
+       "altitude_miss_ft": 5283.946442390977,
+       "backward_miss_km": 3.593726688015867,
+       "course_diff_deg": 2.9926683831046716,
+       "endpoint_km": 20.831328857701553,
+       "forward_miss_km": 5.970427172355537,
+       "gap_s": 117.04599999999999,
+       "implied_kmh": 640.7120609651384,
+       "position_miss_km": 4.782076930185702,
+       "predecessor_reports": 16,
+       "speed_diff_kmh": 68.55977795902322,
+       "successor_reports": 12
+      },
+      "rank": 7,
+      "score": 2.053777678775e-05,
+      "successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 10
+    },
+    "reason": "accepted tracklet-4988f186-83b6-51e6-b59d-513774b5e61e: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+   },
+   {
+    "accepted_successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 219.6611182390152,
+       "altitude_miss_ft": 70.0109284609407,
+       "backward_miss_km": 0.26466540998964344,
+       "course_diff_deg": 0.40276700204944405,
+       "endpoint_km": 23.294633389765565,
+       "forward_miss_km": 0.34289196832638424,
+       "gap_s": 144.325,
+       "implied_kmh": 581.0544271827891,
+       "position_miss_km": 0.30377868915801387,
+       "predecessor_reports": 7,
+       "speed_diff_kmh": 4.329229679731725,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": 0.9911279556105554,
+      "successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-88a1d73d-4188-2250-25aa-25325111de11 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 397.25858605225585,
+       "altitude_miss_ft": 515.5738589752646,
+       "backward_miss_km": 0.6986447079530628,
+       "course_diff_deg": 0.3284109779957305,
+       "endpoint_km": 55.45180010653556,
+       "forward_miss_km": 0.6957600316915138,
+       "gap_s": 342.98199999999997,
+       "implied_kmh": 582.0319444855065,
+       "position_miss_km": 0.6972023698222882,
+       "predecessor_reports": 7,
+       "speed_diff_kmh": 2.316458259797969,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": 0.07274990727845582,
+      "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 10
+    },
+    "reason": "accepted tracklet-88a1d73d-4188-2250-25aa-25325111de11: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+   },
+   {
+    "accepted_successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 25.670913423609818,
+       "altitude_miss_ft": 112.25090646692843,
+       "backward_miss_km": 0.2887128149500216,
+       "course_diff_deg": 0.07435602405371355,
+       "endpoint_km": 13.861397289196498,
+       "forward_miss_km": 0.25989183110170294,
+       "gap_s": 86.154,
+       "implied_kmh": 579.2073524282957,
+       "position_miss_km": 0.27430232302586227,
+       "predecessor_reports": 14,
+       "speed_diff_kmh": 2.012771419933756,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": 0.9914149711143468,
+      "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 5
+    },
+    "reason": "accepted tracklet-b69bdaba-c068-687a-828f-edc2f5e05205: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+   },
+   {
+    "accepted_successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f by 0.993",
+      "measurements": {
+       "altitude_diff_ft": 149.9601105187685,
+       "altitude_miss_ft": 48.19001348918573,
+       "backward_miss_km": 0.13865668296545522,
+       "course_diff_deg": 0.7254110743109834,
+       "endpoint_km": 14.095863263882148,
+       "forward_miss_km": 0.042412432658879985,
+       "gap_s": 108.449,
+       "implied_kmh": 467.9167880752772,
+       "position_miss_km": 0.0905345578121676,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 2.2454781573908917,
+       "successor_reports": 9
+      },
+      "rank": 1,
+      "score": 0.9993298221447884,
+      "successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f could come between them",
+      "measurements": {
+       "altitude_diff_ft": 426.01084028968035,
+       "altitude_miss_ft": 336.4768788103156,
+       "backward_miss_km": 0.6757409568361544,
+       "course_diff_deg": 1.2217197728342626,
+       "endpoint_km": 42.25344508090545,
+       "forward_miss_km": 0.2184538460777229,
+       "gap_s": 324.12,
+       "implied_kmh": 469.30890500820567,
+       "position_miss_km": 0.44709740145693866,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 1.9054043308419182,
+       "successor_reports": 13
+      },
+      "rank": 2,
+      "score": 0.2251485572558426,
+      "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78 already links to tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+      "measurements": {
+       "altitude_diff_ft": 5448.006924562562,
+       "altitude_miss_ft": 5124.874112548157,
+       "backward_miss_km": 0.7887273209891198,
+       "course_diff_deg": 0.8485979804777628,
+       "endpoint_km": 40.43589681215159,
+       "forward_miss_km": 0.1959637281158902,
+       "gap_s": 309.626,
+       "implied_kmh": 470.14536416110315,
+       "position_miss_km": 0.492345524552505,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 4.2220562179694525,
+       "successor_reports": 15
+      },
+      "rank": 3,
+      "score": 0.0031163462919800316,
+      "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78 already links to tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+      "measurements": {
+       "altitude_diff_ft": 5237.585148371223,
+       "altitude_miss_ft": 5084.516575541563,
+       "backward_miss_km": 0.10424177308021425,
+       "course_diff_deg": 0.4718095623659053,
+       "endpoint_km": 11.658584637980827,
+       "forward_miss_km": 0.1437401708883587,
+       "gap_s": 89.624,
+       "implied_kmh": 468.2998381765038,
+       "position_miss_km": 0.12399097198428646,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 3.7339423894415518,
+       "successor_reports": 14
+      },
+      "rank": 4,
+      "score": 0.001980860870161049,
+      "successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f could come between them",
+      "measurements": {
+       "altitude_diff_ft": 236.38442262934404,
+       "altitude_miss_ft": 1282.9121718997194,
+       "backward_miss_km": 0.7135235535632032,
+       "course_diff_deg": 1.5971871715125587,
+       "endpoint_km": 70.16311731924412,
+       "forward_miss_km": 1.0612116618581744,
+       "gap_s": 539.4929999999999,
+       "implied_kmh": 468.1936973218909,
+       "position_miss_km": 0.8873676077106888,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 2.1065130720047023,
+       "successor_reports": 11
+      },
+      "rank": 5,
+      "score": 9.992747404540993e-05,
+      "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78 already links to tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+      "measurements": {
+       "altitude_diff_ft": 5292.691792629545,
+       "altitude_miss_ft": 5394.259165461146,
+       "backward_miss_km": 2.223474771957856,
+       "course_diff_deg": 2.318342604704867,
+       "endpoint_km": 69.0580202402903,
+       "forward_miss_km": 0.4596150569521865,
+       "gap_s": 530.952,
+       "implied_kmh": 468.2322938138383,
+       "position_miss_km": 1.341544914455021,
+       "predecessor_reports": 15,
+       "speed_diff_kmh": 3.68895711277122,
+       "successor_reports": 10
+      },
+      "rank": 6,
+      "score": 5.818456475447194e-05,
+      "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 11
+    },
+    "reason": "accepted tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f: leads tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f -> tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f by 0.993",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78"
+   },
+   {
+    "accepted_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 320.1157005648711,
+       "altitude_miss_ft": 743.8465304312103,
+       "backward_miss_km": 0.8890879510986741,
+       "course_diff_deg": 1.065355739109691,
+       "endpoint_km": 47.80383371221234,
+       "forward_miss_km": 0.43195373576635926,
+       "gap_s": 346.461,
+       "implied_kmh": 496.7191151788063,
+       "position_miss_km": 0.6605208434325167,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 2.2138054865961294,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": 0.06027390140754122,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 already links to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "measurements": {
+       "altitude_diff_ft": 3891.8422747177738,
+       "altitude_miss_ft": 3849.3087091431235,
+       "backward_miss_km": 1.340250171721351,
+       "course_diff_deg": 3.086943546780816,
+       "endpoint_km": 46.62958890409121,
+       "forward_miss_km": 1.322923193937029,
+       "gap_s": 332.264,
+       "implied_kmh": 505.2203069087483,
+       "position_miss_km": 1.33158668282919,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 2.1437289758738984,
+       "successor_reports": 15
+      },
+      "rank": 2,
+      "score": 0.001393535273283701,
+      "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 already links to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "measurements": {
+       "altitude_diff_ft": 3512.2692146974823,
+       "altitude_miss_ft": 3540.4875141114007,
+       "backward_miss_km": 1.1140316337749088,
+       "course_diff_deg": 2.9003887017557872,
+       "endpoint_km": 16.012489552298646,
+       "forward_miss_km": 0.3335860102600533,
+       "gap_s": 113.829,
+       "implied_kmh": 506.4171905953239,
+       "position_miss_km": 0.723808822017481,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 4.323636284058978,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": 0.0012112836274347156,
+      "successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+     },
+     {
+      "decision": "predecessor_taken",
+      "decision_detail": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 already links to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "measurements": {
+       "altitude_diff_ft": 4266.899294231662,
+       "altitude_miss_ft": 4707.3631872487485,
+       "backward_miss_km": 1.6262227281866137,
+       "course_diff_deg": 3.159890410860555,
+       "endpoint_km": 77.05896101346228,
+       "forward_miss_km": 2.9777204913080015,
+       "gap_s": 549.66,
+       "implied_kmh": 504.6979217124481,
+       "position_miss_km": 2.3019716097473077,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 0.3205540410655203,
+       "successor_reports": 21
+      },
+      "rank": 4,
+      "score": 0.00016648049053347286,
+      "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+     },
+     {
+      "decision": "physically_inconsistent",
+      "decision_detail": "backward projection misses by 5.25 km; the limit is 3.0 km",
+      "measurements": {
+       "altitude_diff_ft": 106.5535827158019,
+       "altitude_miss_ft": 925.576831080969,
+       "backward_miss_km": 5.2507362782457525,
+       "course_diff_deg": 3.8174558189185177,
+       "endpoint_km": 78.62171462963326,
+       "forward_miss_km": 0.6108927166190354,
+       "gap_s": 568.781,
+       "implied_kmh": 497.62241120339775,
+       "position_miss_km": 2.9308144974323938,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 12.957573515536296,
+       "successor_reports": 9
+      },
+      "rank": 5,
+      "score": 3.007213188628918e-05,
+      "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 12
+    },
+    "reason": "accepted tracklet-1d397900-b14a-53fe-12ba-345ed48f2666: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+   },
+   {
+    "accepted_successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 100.30827076232708,
+       "altitude_miss_ft": 96.1967145827366,
+       "backward_miss_km": 0.5179790384710289,
+       "course_diff_deg": 1.2268572172950485,
+       "endpoint_km": 16.543872828200737,
+       "forward_miss_km": 0.30761554236261235,
+       "gap_s": 103.329,
+       "implied_kmh": 576.3913536521467,
+       "position_miss_km": 0.4127972904168206,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 2.5589899043480955,
+       "successor_reports": 7
+      },
+      "rank": 1,
+      "score": 0.9832667598662582,
+      "successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb could come between them",
+      "measurements": {
+       "altitude_diff_ft": 532.577729153667,
+       "altitude_miss_ft": 52.66870518212545,
+       "backward_miss_km": 0.399386113613069,
+       "course_diff_deg": 0.8240902152456044,
+       "endpoint_km": 55.61762283658854,
+       "forward_miss_km": 0.8988249067078028,
+       "gap_s": 343.971,
+       "implied_kmh": 582.0939620250508,
+       "position_miss_km": 0.6491055101604359,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 1.7702397753836294,
+       "successor_reports": 14
+      },
+      "rank": 2,
+      "score": 0.05251373524194729,
+      "successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb could come between them",
+      "measurements": {
+       "altitude_diff_ft": 710.1751969669076,
+       "altitude_miss_ft": 649.8346426258449,
+       "backward_miss_km": 0.9775301144910261,
+       "course_diff_deg": 0.8984462392992896,
+       "endpoint_km": 87.77399919527302,
+       "forward_miss_km": 1.4845647955515586,
+       "gap_s": 542.6279999999999,
+       "implied_kmh": 582.3260080625823,
+       "position_miss_km": 1.2310474550212924,
+       "predecessor_reports": 10,
+       "speed_diff_kmh": 0.24253164455012666,
+       "successor_reports": 10
+      },
+      "rank": 3,
+      "score": 0.0026194596442657998,
+      "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 14
+    },
+    "reason": "accepted tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-c0fe73d2-c2bc-8fb5-c015-ab06a7132a4f"
+   },
+   {
+    "accepted_successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1",
+    "candidates": [
+     {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 200.11457193300157,
+       "altitude_miss_ft": 230.90123921198756,
+       "backward_miss_km": 0.36759715545341876,
+       "course_diff_deg": 0.1703197574398132,
+       "endpoint_km": 18.134719979959467,
+       "forward_miss_km": 0.28607533033202986,
+       "gap_s": 121.6,
+       "implied_kmh": 536.8831573014317,
+       "position_miss_km": 0.3268362428927243,
+       "predecessor_reports": 12,
+       "speed_diff_kmh": 0.9354852882414662,
+       "successor_reports": 13
+      },
+      "rank": 1,
+      "score": 0.9772414840655973,
+      "successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+     },
+     {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 90.16249393591715,
+       "altitude_miss_ft": 490.4662844136292,
+       "backward_miss_km": 1.489055346666408,
+       "course_diff_deg": 1.5030497071292075,
+       "endpoint_km": 48.62584162876494,
+       "forward_miss_km": 0.17662439100348146,
+       "gap_s": 324.188,
+       "implied_kmh": 539.9738110712111,
+       "position_miss_km": 0.8328398688349448,
+       "predecessor_reports": 12,
+       "speed_diff_kmh": 3.972938534304376,
+       "successor_reports": 14
+      },
+      "rank": 2,
+      "score": 0.12115664178739723,
+      "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+     }
+    ],
+    "gated_out": {
+     "projection_miss_too_large": 10
+    },
+    "reason": "accepted tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1: no competing candidate",
+    "reason_code": "accepted",
+    "status": "accepted",
+    "tracklet_id": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+   },
+   {
+    "accepted_successor": null,
+    "candidates": [],
+    "gated_out": {},
+    "reason": "no plausible candidate",
+    "reason_code": "no_candidate",
+    "status": "unresolved",
+    "tracklet_id": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+   }
+  ],
+  "version": "learned-a36e991b130d"
+ }
+}

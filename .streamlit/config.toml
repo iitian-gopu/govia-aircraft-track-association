@@ -1,0 +1,16 @@
+[server]
+headless = true  # a first run otherwise stops to ask for an email address
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[theme]
+base = "light"
+primaryColor = "#2a6fb0"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f5f7"
+textColor = "#1a1d21"

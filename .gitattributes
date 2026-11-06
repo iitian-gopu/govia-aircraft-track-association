@@ -1,0 +1,3 @@
+*.joblib binary
+# The supplied data stays byte-for-byte as provided, so its checksums hold on every platform.
+candidate-packet/** -text

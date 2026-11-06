@@ -1,0 +1,564 @@
+{
+ "after": "snapshot_2",
+ "before": "snapshot_1",
+ "evaluation": {
+  "snapshot_1": {
+   "baseline": {
+    "accepted": 17,
+    "candidate_links_excluded": 0,
+    "candidate_links_retained": 17,
+    "candidate_pairs": 56,
+    "candidate_recall": 1.0,
+    "candidates_per_tracklet": 2.4347826086956523,
+    "correct": 17,
+    "excluded_links": [],
+    "labeled_links": 17,
+    "labeled_unresolved": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tracklets": 23,
+    "unresolved_proportion": 0.0,
+    "unresolved_tracklets": 6,
+    "wrong": 0,
+    "wrong_invalid": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   },
+   "learned": {
+    "accepted": 17,
+    "candidate_links_excluded": 0,
+    "candidate_links_retained": 17,
+    "candidate_pairs": 56,
+    "candidate_recall": 1.0,
+    "candidates_per_tracklet": 2.4347826086956523,
+    "correct": 17,
+    "excluded_links": [],
+    "labeled_links": 17,
+    "labeled_unresolved": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tracklets": 23,
+    "unresolved_proportion": 0.0,
+    "unresolved_tracklets": 6,
+    "wrong": 0,
+    "wrong_invalid": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   }
+  },
+  "snapshot_2": {
+   "baseline": {
+    "accepted": 18,
+    "candidate_links_excluded": 0,
+    "candidate_links_retained": 18,
+    "candidate_pairs": 62,
+    "candidate_recall": 1.0,
+    "candidates_per_tracklet": 2.5833333333333335,
+    "correct": 18,
+    "excluded_links": [],
+    "labeled_links": 18,
+    "labeled_unresolved": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tracklets": 24,
+    "unresolved_proportion": 0.0,
+    "unresolved_tracklets": 6,
+    "wrong": 0,
+    "wrong_invalid": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   },
+   "learned": {
+    "accepted": 18,
+    "candidate_links_excluded": 0,
+    "candidate_links_retained": 18,
+    "candidate_pairs": 62,
+    "candidate_recall": 1.0,
+    "candidates_per_tracklet": 2.5833333333333335,
+    "correct": 18,
+    "excluded_links": [],
+    "labeled_links": 18,
+    "labeled_unresolved": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tracklets": 24,
+    "unresolved_proportion": 0.0,
+    "unresolved_tracklets": 6,
+    "wrong": 0,
+    "wrong_invalid": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   }
+  }
+ },
+ "methods": {
+  "baseline": {
+   "added": [
+    {
+     "after": {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 7.750049488404329,
+       "altitude_miss_ft": 182.4993891138156,
+       "backward_miss_km": 0.20623209303242995,
+       "course_diff_deg": 1.1144271186338415,
+       "endpoint_km": 14.61914861460598,
+       "forward_miss_km": 0.17345744686847764,
+       "gap_s": 106.228,
+       "implied_kmh": 495.4337369863081,
+       "position_miss_km": 0.1898447699504538,
+       "predecessor_reports": 14,
+       "score_terms": {
+        "altitude": 2.2166760304065543,
+        "position": 0.8084970245514415
+       },
+       "speed_diff_kmh": 0.4907945941623666,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": -3.0251730549579956,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "predecessor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3",
+     "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+    }
+   ],
+   "counts": {
+    "added": 1,
+    "new_tracklets": 1,
+    "removed_tracklets": 0,
+    "replaced": 1,
+    "unchanged": 16,
+    "unresolved": {
+     "snapshot_1": 6,
+     "snapshot_2": 6
+    },
+    "withdrawn": 0
+   },
+   "ground_truth_for_changed_tracklets": [
+    {
+     "snapshot_1": {
+      "has_label": false,
+      "link_correct": null,
+      "linked_successor": null,
+      "true_successor": null
+     },
+     "snapshot_2": {
+      "has_label": true,
+      "link_correct": true,
+      "linked_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "true_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "successor_changed": null,
+     "tracklet_id": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+    },
+    {
+     "snapshot_1": {
+      "has_label": true,
+      "link_correct": true,
+      "linked_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "true_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "snapshot_2": {
+      "has_label": true,
+      "link_correct": true,
+      "linked_successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3",
+      "true_successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+     },
+     "successor_changed": true,
+     "tracklet_id": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648"
+    }
+   ],
+   "new_tracklets": [
+    {
+     "accepted_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+     "reason": "accepted tracklet-1d397900-b14a-53fe-12ba-345ed48f2666: no competing candidate",
+     "reason_code": "accepted",
+     "status": "accepted",
+     "tracklet_id": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+    }
+   ],
+   "removed_tracklets": [],
+   "replaced": [
+    {
+     "after": {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788 by 736.066",
+      "measurements": {
+       "altitude_diff_ft": 209.48285944744566,
+       "altitude_miss_ft": 52.28761306006709,
+       "backward_miss_km": 0.1673703536136781,
+       "course_diff_deg": 0.049071379524121994,
+       "endpoint_km": 16.757208226867114,
+       "forward_miss_km": 0.21364017233071253,
+       "gap_s": 121.886,
+       "implied_kmh": 494.9374794211116,
+       "position_miss_km": 0.19050526297219533,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 0.1382125209827777,
+        "position": 0.6206444809093872
+       },
+       "speed_diff_kmh": 1.7230108924337628,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": -0.7588570018921649,
+      "successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+     },
+     "before": {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 320.1157005648711,
+       "altitude_miss_ft": 743.8465304312103,
+       "backward_miss_km": 0.8890879510986741,
+       "course_diff_deg": 1.065355739109691,
+       "endpoint_km": 47.80383371221234,
+       "forward_miss_km": 0.43195373576635926,
+       "gap_s": 346.461,
+       "implied_kmh": 496.7191151788063,
+       "position_miss_km": 0.6605208434325167,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 3.461906857226377,
+        "position": 0.9383653159948571
+       },
+       "speed_diff_kmh": 2.2138054865961294,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": -4.400272173221234,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "explanation": "This method linked tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 in snapshot 1 and to tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 in snapshot 2. New tracklet tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 sits between the old pair: snapshot 2 accepts tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 and tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 -> tracklet-1d397900-b14a-53fe-12ba-345ed48f2666. A link names the immediate next available tracklet, not an aircraft, so this is not an identity change.",
+     "new_successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3",
+     "new_successor_is_new": true,
+     "new_tracklets_between": 1,
+     "old_pair_in_snapshot_2": {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 320.1157005648711,
+       "altitude_miss_ft": 743.8465304312103,
+       "backward_miss_km": 0.8890879510986741,
+       "course_diff_deg": 1.065355739109691,
+       "endpoint_km": 47.80383371221234,
+       "forward_miss_km": 0.43195373576635926,
+       "gap_s": 346.461,
+       "implied_kmh": 496.7191151788063,
+       "position_miss_km": 0.6605208434325167,
+       "predecessor_reports": 18,
+       "score_terms": {
+        "altitude": 3.461906857226377,
+        "position": 0.9383653159948571
+       },
+       "speed_diff_kmh": 2.2138054865961294,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": -4.400272173221234,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "old_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+     "predecessor": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648"
+    }
+   ],
+   "status_changed": [],
+   "unchanged": [
+    {
+     "predecessor": "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c",
+     "successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+    },
+    {
+     "predecessor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+     "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+    },
+    {
+     "predecessor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+     "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+    },
+    {
+     "predecessor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+     "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+    },
+    {
+     "predecessor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+     "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+    },
+    {
+     "predecessor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+     "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+    },
+    {
+     "predecessor": "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828",
+     "successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+    },
+    {
+     "predecessor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1",
+     "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+    },
+    {
+     "predecessor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+     "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+    },
+    {
+     "predecessor": "tracklet-49d28583-b279-1634-9773-2800a9349669",
+     "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+    },
+    {
+     "predecessor": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f",
+     "successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+    },
+    {
+     "predecessor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb",
+     "successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+    },
+    {
+     "predecessor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11",
+     "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+    },
+    {
+     "predecessor": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78",
+     "successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+    },
+    {
+     "predecessor": "tracklet-c0fe73d2-c2bc-8fb5-c015-ab06a7132a4f",
+     "successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+    },
+    {
+     "predecessor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+     "successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+    }
+   ],
+   "withdrawn": []
+  },
+  "learned": {
+   "added": [
+    {
+     "after": {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 7.750049488404329,
+       "altitude_miss_ft": 182.4993891138156,
+       "backward_miss_km": 0.20623209303242995,
+       "course_diff_deg": 1.1144271186338415,
+       "endpoint_km": 14.61914861460598,
+       "forward_miss_km": 0.17345744686847764,
+       "gap_s": 106.228,
+       "implied_kmh": 495.4337369863081,
+       "position_miss_km": 0.1898447699504538,
+       "predecessor_reports": 14,
+       "speed_diff_kmh": 0.4907945941623666,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": 0.9914963614987382,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "predecessor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3",
+     "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+    }
+   ],
+   "counts": {
+    "added": 1,
+    "new_tracklets": 1,
+    "removed_tracklets": 0,
+    "replaced": 1,
+    "unchanged": 16,
+    "unresolved": {
+     "snapshot_1": 6,
+     "snapshot_2": 6
+    },
+    "withdrawn": 0
+   },
+   "ground_truth_for_changed_tracklets": [
+    {
+     "snapshot_1": {
+      "has_label": false,
+      "link_correct": null,
+      "linked_successor": null,
+      "true_successor": null
+     },
+     "snapshot_2": {
+      "has_label": true,
+      "link_correct": true,
+      "linked_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "true_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "successor_changed": null,
+     "tracklet_id": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+    },
+    {
+     "snapshot_1": {
+      "has_label": true,
+      "link_correct": true,
+      "linked_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+      "true_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "snapshot_2": {
+      "has_label": true,
+      "link_correct": true,
+      "linked_successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3",
+      "true_successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+     },
+     "successor_changed": true,
+     "tracklet_id": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648"
+    }
+   ],
+   "new_tracklets": [
+    {
+     "accepted_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+     "reason": "accepted tracklet-1d397900-b14a-53fe-12ba-345ed48f2666: no competing candidate",
+     "reason_code": "accepted",
+     "status": "accepted",
+     "tracklet_id": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+    }
+   ],
+   "removed_tracklets": [],
+   "replaced": [
+    {
+     "after": {
+      "decision": "accepted",
+      "decision_detail": "leads tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828 -> tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 by 0.995",
+      "measurements": {
+       "altitude_diff_ft": 209.48285944744566,
+       "altitude_miss_ft": 52.28761306006709,
+       "backward_miss_km": 0.1673703536136781,
+       "course_diff_deg": 0.049071379524121994,
+       "endpoint_km": 16.757208226867114,
+       "forward_miss_km": 0.21364017233071253,
+       "gap_s": 121.886,
+       "implied_kmh": 494.9374794211116,
+       "position_miss_km": 0.19050526297219533,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 1.7230108924337628,
+       "successor_reports": 14
+      },
+      "rank": 1,
+      "score": 0.9969426181391173,
+      "successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3"
+     },
+     "before": {
+      "decision": "accepted",
+      "decision_detail": "no competing candidate",
+      "measurements": {
+       "altitude_diff_ft": 320.1157005648711,
+       "altitude_miss_ft": 743.8465304312103,
+       "backward_miss_km": 0.8890879510986741,
+       "course_diff_deg": 1.065355739109691,
+       "endpoint_km": 47.80383371221234,
+       "forward_miss_km": 0.43195373576635926,
+       "gap_s": 346.461,
+       "implied_kmh": 496.7191151788063,
+       "position_miss_km": 0.6605208434325167,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 2.2138054865961294,
+       "successor_reports": 10
+      },
+      "rank": 1,
+      "score": 0.06027390140754122,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "explanation": "This method linked tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 to tracklet-1d397900-b14a-53fe-12ba-345ed48f2666 in snapshot 1 and to tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 in snapshot 2. New tracklet tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 sits between the old pair: snapshot 2 accepts tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648 -> tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 and tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 -> tracklet-1d397900-b14a-53fe-12ba-345ed48f2666. A link names the immediate next available tracklet, not an aircraft, so this is not an identity change.",
+     "new_successor": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3",
+     "new_successor_is_new": true,
+     "new_tracklets_between": 1,
+     "old_pair_in_snapshot_2": {
+      "decision": "possible_intermediate",
+      "decision_detail": "tracklet-691cc611-992a-47ea-67c7-d285c0c52de3 could come between them",
+      "measurements": {
+       "altitude_diff_ft": 320.1157005648711,
+       "altitude_miss_ft": 743.8465304312103,
+       "backward_miss_km": 0.8890879510986741,
+       "course_diff_deg": 1.065355739109691,
+       "endpoint_km": 47.80383371221234,
+       "forward_miss_km": 0.43195373576635926,
+       "gap_s": 346.461,
+       "implied_kmh": 496.7191151788063,
+       "position_miss_km": 0.6605208434325167,
+       "predecessor_reports": 18,
+       "speed_diff_kmh": 2.2138054865961294,
+       "successor_reports": 10
+      },
+      "rank": 2,
+      "score": 0.06027390140754122,
+      "successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666"
+     },
+     "old_successor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+     "predecessor": "tracklet-aa82aa85-67bd-e4fe-cc6e-5e0d9ae7e648"
+    }
+   ],
+   "status_changed": [],
+   "unchanged": [
+    {
+     "predecessor": "tracklet-095baef0-86b8-25d4-772a-0343dbd5755c",
+     "successor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a"
+    },
+    {
+     "predecessor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f",
+     "successor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6"
+    },
+    {
+     "predecessor": "tracklet-1d397900-b14a-53fe-12ba-345ed48f2666",
+     "successor": "tracklet-d81aeacc-bf68-3c7f-cf62-6b79ae4a3976"
+    },
+    {
+     "predecessor": "tracklet-2b7e0c4f-065a-e882-8d2b-67110927b0d6",
+     "successor": "tracklet-876dc149-343f-8e0b-51f5-efd1fd0332fd"
+    },
+    {
+     "predecessor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a",
+     "successor": "tracklet-5e77b4e1-9321-b39b-c6ae-3f1526a382de"
+    },
+    {
+     "predecessor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788",
+     "successor": "tracklet-2db24cf0-2215-64db-94cc-a7defed7f98a"
+    },
+    {
+     "predecessor": "tracklet-4109defd-9f18-83c1-2830-44c7dfb2c828",
+     "successor": "tracklet-315a4e10-21ea-1e4a-04a7-5767800d1788"
+    },
+    {
+     "predecessor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1",
+     "successor": "tracklet-df01c8a9-9520-6a27-f47c-d1bd0171f144"
+    },
+    {
+     "predecessor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e",
+     "successor": "tracklet-49d28583-b279-1634-9773-2800a9349669"
+    },
+    {
+     "predecessor": "tracklet-49d28583-b279-1634-9773-2800a9349669",
+     "successor": "tracklet-7afdc09c-2803-c43b-4a9e-e870ca73c5c2"
+    },
+    {
+     "predecessor": "tracklet-57e69311-fb16-c4bd-d71d-b6b8583bba9f",
+     "successor": "tracklet-4988f186-83b6-51e6-b59d-513774b5e61e"
+    },
+    {
+     "predecessor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb",
+     "successor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11"
+    },
+    {
+     "predecessor": "tracklet-88a1d73d-4188-2250-25aa-25325111de11",
+     "successor": "tracklet-b69bdaba-c068-687a-828f-edc2f5e05205"
+    },
+    {
+     "predecessor": "tracklet-97c73082-2aab-0792-5643-9cd74024ea78",
+     "successor": "tracklet-0cf33031-615b-c30f-0fa5-b16619688f2f"
+    },
+    {
+     "predecessor": "tracklet-c0fe73d2-c2bc-8fb5-c015-ab06a7132a4f",
+     "successor": "tracklet-6ce3a263-0047-5f03-4318-736bf54b9afb"
+    },
+    {
+     "predecessor": "tracklet-cc1e490a-83fb-f504-5bdd-7f0cff962a0a",
+     "successor": "tracklet-427cd703-137f-d425-6a75-58ab09bd0bd1"
+    }
+   ],
+   "withdrawn": []
+  }
+ }
+}

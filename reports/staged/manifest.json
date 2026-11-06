@@ -1,0 +1,83 @@
+{
+ "baseline_version": "baseline-46053766c2c3",
+ "command": "python scripts/run_staged.py",
+ "decision_settings": {
+  "baseline": {
+   "config": {
+    "candidates": {
+     "max_gap_s": 600.0,
+     "max_implied_kmh": 1100.0,
+     "max_projection_km": 5.0
+    },
+    "min_reports_for_motion": 3,
+    "missing_penalty": 1.0,
+    "policy": {
+     "min_margin": 4.0,
+     "min_score": -40.0,
+     "plausible_score": -120.0
+    },
+    "scales": {
+     "altitude_floor_ft": 29.824730670660912,
+     "altitude_ft": 0.0,
+     "altitude_ft_per_s": 1.153908300976906,
+     "course_deg": 0.695052362811071,
+     "position_floor_km": 0.10026244358285187,
+     "position_km": 0.0029820737375362005,
+     "position_km_per_s": 0.001959488395604206,
+     "speed_kmh": 3.6392845791400448
+    },
+    "use_altitude": true,
+    "use_speed_course": false
+   },
+   "policy": {
+    "min_margin": 4.0,
+    "min_score": -40.0,
+    "plausible_score": -120.0
+   }
+  },
+  "learned": {
+   "config": {
+    "candidates": {
+     "max_gap_s": 600.0,
+     "max_implied_kmh": 1100.0,
+     "max_projection_km": 5.0
+    },
+    "features": [
+     "gap_s",
+     "forward_miss_km",
+     "backward_miss_km",
+     "altitude_miss_ft",
+     "speed_diff_kmh"
+    ],
+    "max_course_diff_deg": 15.0,
+    "max_directional_miss_km": 3.0,
+    "min_reports_for_motion": 3
+   },
+   "policy": {
+    "min_margin": 0.05,
+    "min_score": 0.01,
+    "plausible_score": 0.01
+   }
+  }
+ },
+ "learned_version": "learned-a36e991b130d",
+ "sha256": {
+  "comparison.json": "0f0d33839e15bc29b2fe40eac877527e6212f12b19ffe31babe7bc560e911f3d",
+  "snapshot_1_result.json": "6685373b9e44a86afad4b6f908872d9df54a2462ba386dc88c6d2af5583f0259",
+  "snapshot_2_result.json": "8b93f032efeb45dcefb69d98cf66f3e259e10348e1a97c11bd02785ec67a4df8"
+ },
+ "snapshots": {
+  "snapshot_1": {
+   "input_fingerprint": "644790d17c36ab3bf2653baa49b548b3776a79a6bcf30210bac8a562a0845417",
+   "receipt_cutoff": "2026-06-09T00:20:00.000Z",
+   "scenario_id": "scenario-9a73ad2b-a6a6-5fa0-a1c7-bd1d0ca2be68",
+   "snapshot_id": "snapshot-0f61d5f0-f016-67ba-4361-759ffcd768ad"
+  },
+  "snapshot_2": {
+   "input_fingerprint": "72a450984f507e0add99d26047c2dc6403ad6ae13f084975ef3f580c795d3c89",
+   "receipt_cutoff": "2026-06-09T00:26:40.000Z",
+   "scenario_id": "scenario-9a73ad2b-a6a6-5fa0-a1c7-bd1d0ca2be68",
+   "snapshot_id": "snapshot-55006b8a-85f4-1446-9a06-704a0ae9d995"
+  }
+ }
+}

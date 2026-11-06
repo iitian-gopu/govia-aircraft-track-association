@@ -1,0 +1,85 @@
+{
+ "balanced_ratio": 5,
+ "conservative_min_recall": 0.97,
+ "grid_size": 357,
+ "model_version": "learned-a36e991b130d",
+ "operating_policy": "balanced",
+ "permissive_ratio": 1,
+ "policies": {
+  "balanced": {
+   "min_margin": 0.05,
+   "min_score": 0.01,
+   "plausible_score": 0.01,
+   "train": {
+    "accepted": 1353,
+    "correct": 1353,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.9919354838709677,
+    "wrong": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   },
+   "validation": {
+    "accepted": 335,
+    "correct": 335,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 1.0,
+    "wrong": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   }
+  },
+  "conservative": {
+   "min_margin": 0.6,
+   "min_score": 0.02,
+   "plausible_score": 0.02,
+   "train": {
+    "accepted": 1332,
+    "correct": 1332,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.9765395894428153,
+    "wrong": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   },
+   "validation": {
+    "accepted": 333,
+    "correct": 333,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.9940298507462687,
+    "wrong": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   }
+  },
+  "permissive": {
+   "min_margin": 0.0,
+   "min_score": 0.01,
+   "plausible_score": 0.01,
+   "train": {
+    "accepted": 1358,
+    "correct": 1356,
+    "labeled_links": 1364,
+    "precision": 0.9985272459499264,
+    "recall": 0.9941348973607038,
+    "wrong": 2,
+    "wrong_other_aircraft": 2,
+    "wrong_skips": 0
+   },
+   "validation": {
+    "accepted": 335,
+    "correct": 335,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 1.0,
+    "wrong": 0,
+    "wrong_other_aircraft": 0,
+    "wrong_skips": 0
+   }
+  }
+ }
+}

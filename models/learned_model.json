@@ -1,0 +1,45 @@
+{
+ "altitude_hidden_copy": true,
+ "artifact_sha256": "dcb08001cf9b738c321a677197191a5a5407669a8cf7a02fa1429c4e39491898",
+ "candidates": {
+  "max_gap_s": 600.0,
+  "max_implied_kmh": 1100.0,
+  "max_projection_km": 5.0
+ },
+ "feature_names": [
+  "gap_s",
+  "forward_miss_km",
+  "backward_miss_km",
+  "altitude_miss_ft",
+  "speed_diff_kmh"
+ ],
+ "hidden_copy_weight": 0.5,
+ "library_versions": {
+  "joblib": "1.6.0",
+  "numpy": "2.4.6",
+  "python": "3.11.17",
+  "scikit-learn": "1.9.1"
+ },
+ "method": "learned",
+ "min_reports_for_motion": 3,
+ "model_version": "learned-a36e991b130d",
+ "parameters": {
+  "early_stopping": false,
+  "l2_regularization": 1.0,
+  "learning_rate": 0.08,
+  "max_depth": 3,
+  "max_iter": 200,
+  "min_samples_leaf": 20,
+  "random_state": 0
+ },
+ "target": "immediate successor only; a same-aircraft skip is a negative",
+ "training": {
+  "data_sha256": "82eb48a1794da2d4aa5182ae3d9157e112e9ecea5987042e32928eb047bf86c7",
+  "labeled_links": 1364,
+  "negatives_other_aircraft": 2919,
+  "negatives_same_aircraft": 1287,
+  "positives": 1364,
+  "rows": 5570,
+  "scenarios": 80
+ }
+}

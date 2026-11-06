@@ -1,0 +1,36 @@
+{
+ "files": {
+  "configs/baseline.json": "a20183b791b2f04f6f26cec711624e5910c811838093004aba694c4ee93f13d5",
+  "configs/learned.json": "f264cd10028e479bf142d8b1f8f910db1850256ad43d790b50ce7f5262c43bd4",
+  "models/learned_model.joblib": "dcb08001cf9b738c321a677197191a5a5407669a8cf7a02fa1429c4e39491898",
+  "models/learned_model.json": "11795c1a9cd42a533873bc3f2e7c71f0cc84fd1c11794e81b4e73ae9581e712f",
+  "src/govia_tracks/__init__.py": "173bf6da121db450491f37e20efb8a0fc937eb745c5932a1a615fc8e3420d16c",
+  "src/govia_tracks/api.py": "afeab507a6f6c574955bf85fd4257ec77aae16cb9a508063f8b861bc4570b30f",
+  "src/govia_tracks/association.py": "7dae0dd9cb257f369a8122f4ad930644bd7ab2baa60f26322a2690656cdbc562",
+  "src/govia_tracks/baseline.py": "40b2c70f3aeaffb3dd54ac347fe80b756fb24d1e4d04a39b5578c0c6f426b8b5",
+  "src/govia_tracks/candidates.py": "cfdb70191ac23928c48162b643463d94108a7f3d6ffb65c89015255daab7f810",
+  "src/govia_tracks/errors.py": "bfa29ed0c330f80d4c3925dbc68062f924bcf000ca74d620dcaeb5b6debf5045",
+  "src/govia_tracks/evaluation.py": "f8737defb419ed042ca555c8c51e2d70def1563e08eeefcc8d4e99d60e2c6ff4",
+  "src/govia_tracks/labels.py": "978f980e55b8975de842a422bd82879444aab24f962ff944d9e71031e7c9ab19",
+  "src/govia_tracks/learned.py": "6cd64826076380b8b9a7464445b311769f93f870dc24a629488a39dcda6e05ee",
+  "src/govia_tracks/loader.py": "2e3e07179fda1b342a4df77cd7c06d6c2a03dc1c98bb38678b2f120391c18e88",
+  "src/govia_tracks/movement.py": "2f8d1348e0e7f2780f6d22eb1faf50233e26614ab060fa609fe9aac5f88139db",
+  "src/govia_tracks/preprocess.py": "7621061294e036f2b9bc5343d2198b5da3b6094b7ba9e0170ce43637ff819cbf",
+  "src/govia_tracks/schema.py": "006b158a5ad32541c995547f4828749817979943c9d1dcc23c3920dc30b78a01",
+  "src/govia_tracks/training.py": "0dafb4bfe52273687c8e0e2cb54a88d6ff858a07011c12e45a7df6627a86c333"
+ },
+ "versions": {
+  "baseline": "baseline-46053766c2c3",
+  "baseline_policy": {
+   "min_margin": 4.0,
+   "min_score": -40.0,
+   "plausible_score": -120.0
+  },
+  "learned": "learned-a36e991b130d",
+  "learned_policy": {
+   "min_margin": 0.05,
+   "min_score": 0.01,
+   "plausible_score": 0.01
+  }
+ }
+}

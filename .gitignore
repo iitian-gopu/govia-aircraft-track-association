@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Local development material, not part of the submission
+.claude/
+CLAUDE.md
+DESIGN.md
+STATUS.md
+RESEARCH.md
+DATA_ANALYSIS.md
+AI_PROMPTS.md
+explore/
+scripts/audit_data.py
+scripts/export_prompts.py
+reports/*.txt
+reports/data_audit.json

@@ -1,0 +1,16 @@
+{
+  "snapshot_id": "snapshot-a1d47292-a69d-9905-35ec-7d00d763e857",
+  "scenario_id": "scenario-44b2450c-7971-9df4-2ae5-a0f4529608b2",
+  "partition": "test",
+  "receipt_cutoff": null,
+  "files": {
+    "observations": "observations.jsonl",
+    "supporting": "supporting.jsonl",
+    "labels": "labels.jsonl"
+  },
+  "tracklet_count": 24,
+  "unique_observation_count": 325,
+  "observation_row_count": 336,
+  "supporting_row_count": 214,
+  "labeled_link_count": 18
+}

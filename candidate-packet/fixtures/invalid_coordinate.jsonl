@@ -1,0 +1,1 @@
+{"observation_id":"obs-f060e3f5-770a-9611-81ff-b45bbf7c701b","tracklet_id":"tracklet-3966e3d5-2b10-ebe2-933a-77100393fbc6","observed_at":"2026-03-06T00:05:35.148Z","received_at":"2026-03-06T00:05:36.948Z","latitude":95,"longitude":-101.5174394,"source":"feed-a","attributes":{"spd":287.49,"ref":"33D858","q":1,"node":"worker-9","r7":3.189},"altitude_ft":17609.4}

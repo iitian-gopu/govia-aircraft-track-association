@@ -1,0 +1,344 @@
+{
+ "ablation": {
+  "constant/all": {
+   "min_margin": 4.0,
+   "min_score": -40,
+   "plausible_score": -60,
+   "scaling": "constant",
+   "train": {
+    "accepted": 1345,
+    "correct": 1343,
+    "labeled_links": 1364,
+    "precision": 0.9985130111524163,
+    "recall": 0.9846041055718475,
+    "wrong": 2
+   },
+   "validation": {
+    "accepted": 331,
+    "correct": 331,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.9880597014925373,
+    "wrong": 0
+   },
+   "variant": "all"
+  },
+  "constant/position": {
+   "min_margin": 2.0,
+   "min_score": -24,
+   "plausible_score": -30,
+   "scaling": "constant",
+   "train": {
+    "accepted": 1182,
+    "correct": 1182,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.8665689149560117,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 285,
+    "correct": 285,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.8507462686567164,
+    "wrong": 0
+   },
+   "variant": "position"
+  },
+  "constant/position_altitude": {
+   "min_margin": 2.0,
+   "min_score": -40,
+   "plausible_score": -60,
+   "scaling": "constant",
+   "train": {
+    "accepted": 1349,
+    "correct": 1349,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.9890029325513197,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 333,
+    "correct": 333,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.9940298507462687,
+    "wrong": 0
+   },
+   "variant": "position_altitude"
+  },
+  "constant/position_speed_course": {
+   "min_margin": 16.0,
+   "min_score": -24,
+   "plausible_score": -30,
+   "scaling": "constant",
+   "train": {
+    "accepted": 995,
+    "correct": 995,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.7294721407624634,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 264,
+    "correct": 264,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.7880597014925373,
+    "wrong": 0
+   },
+   "variant": "position_speed_course"
+  },
+  "gap_scaled/all": {
+   "min_margin": 4.0,
+   "min_score": -40,
+   "plausible_score": -120,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1357,
+    "correct": 1355,
+    "labeled_links": 1364,
+    "precision": 0.9985261606484893,
+    "recall": 0.9934017595307918,
+    "wrong": 2
+   },
+   "validation": {
+    "accepted": 335,
+    "correct": 335,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 1.0,
+    "wrong": 0
+   },
+   "variant": "all"
+  },
+  "gap_scaled/position": {
+   "min_margin": 2.0,
+   "min_score": -16,
+   "plausible_score": -30,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1192,
+    "correct": 1192,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.873900293255132,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 284,
+    "correct": 284,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.8477611940298507,
+    "wrong": 0
+   },
+   "variant": "position"
+  },
+  "gap_scaled/position_altitude": {
+   "min_margin": 4.0,
+   "min_score": -40,
+   "plausible_score": -120,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1354,
+    "correct": 1354,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.9926686217008798,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 335,
+    "correct": 335,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 1.0,
+    "wrong": 0
+   },
+   "variant": "position_altitude"
+  },
+  "gap_scaled/position_speed_course": {
+   "min_margin": 0.0,
+   "min_score": -40,
+   "plausible_score": -60,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1345,
+    "correct": 1297,
+    "labeled_links": 1364,
+    "precision": 0.9643122676579926,
+    "recall": 0.9508797653958945,
+    "wrong": 48
+   },
+   "validation": {
+    "accepted": 330,
+    "correct": 319,
+    "labeled_links": 335,
+    "precision": 0.9666666666666667,
+    "recall": 0.9522388059701492,
+    "wrong": 11
+   },
+   "variant": "position_speed_course"
+  }
+ },
+ "balanced_ratio": 5,
+ "conservative_min_recall": 0.97,
+ "grid_size": 1344,
+ "operating_policy": "balanced",
+ "permissive_ratio": 1,
+ "policies": {
+  "balanced": {
+   "min_margin": 4.0,
+   "min_score": -40,
+   "plausible_score": -120,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1354,
+    "correct": 1354,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.9926686217008798,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 335,
+    "correct": 335,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 1.0,
+    "wrong": 0
+   },
+   "variant": "position_altitude"
+  },
+  "conservative": {
+   "min_margin": 8.0,
+   "min_score": -8,
+   "plausible_score": -120,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1331,
+    "correct": 1331,
+    "labeled_links": 1364,
+    "precision": 1.0,
+    "recall": 0.9758064516129032,
+    "wrong": 0
+   },
+   "validation": {
+    "accepted": 332,
+    "correct": 332,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 0.991044776119403,
+    "wrong": 0
+   },
+   "variant": "position_altitude"
+  },
+  "permissive": {
+   "min_margin": 0.0,
+   "min_score": -40,
+   "plausible_score": -60,
+   "scaling": "gap_scaled",
+   "train": {
+    "accepted": 1361,
+    "correct": 1359,
+    "labeled_links": 1364,
+    "precision": 0.9985304922850845,
+    "recall": 0.9963343108504399,
+    "wrong": 2
+   },
+   "validation": {
+    "accepted": 335,
+    "correct": 335,
+    "labeled_links": 335,
+    "precision": 1.0,
+    "recall": 1.0,
+    "wrong": 0
+   },
+   "variant": "position_altitude"
+  }
+ },
+ "policy_configs": {
+  "balanced": {
+   "candidates": {
+    "max_gap_s": 600.0,
+    "max_implied_kmh": 1100.0,
+    "max_projection_km": 5.0
+   },
+   "min_reports_for_motion": 3,
+   "missing_penalty": 1.0,
+   "policy": {
+    "min_margin": 4.0,
+    "min_score": -40.0,
+    "plausible_score": -120.0
+   },
+   "scales": {
+    "altitude_floor_ft": 29.824730670660912,
+    "altitude_ft": 0.0,
+    "altitude_ft_per_s": 1.153908300976906,
+    "course_deg": 0.695052362811071,
+    "position_floor_km": 0.10026244358285187,
+    "position_km": 0.0029820737375362005,
+    "position_km_per_s": 0.001959488395604206,
+    "speed_kmh": 3.6392845791400448
+   },
+   "use_altitude": true,
+   "use_speed_course": false
+  },
+  "conservative": {
+   "candidates": {
+    "max_gap_s": 600.0,
+    "max_implied_kmh": 1100.0,
+    "max_projection_km": 5.0
+   },
+   "min_reports_for_motion": 3,
+   "missing_penalty": 1.0,
+   "policy": {
+    "min_margin": 8.0,
+    "min_score": -8.0,
+    "plausible_score": -120.0
+   },
+   "scales": {
+    "altitude_floor_ft": 29.824730670660912,
+    "altitude_ft": 0.0,
+    "altitude_ft_per_s": 1.153908300976906,
+    "course_deg": 0.695052362811071,
+    "position_floor_km": 0.10026244358285187,
+    "position_km": 0.0029820737375362005,
+    "position_km_per_s": 0.001959488395604206,
+    "speed_kmh": 3.6392845791400448
+   },
+   "use_altitude": true,
+   "use_speed_course": false
+  },
+  "permissive": {
+   "candidates": {
+    "max_gap_s": 600.0,
+    "max_implied_kmh": 1100.0,
+    "max_projection_km": 5.0
+   },
+   "min_reports_for_motion": 3,
+   "missing_penalty": 1.0,
+   "policy": {
+    "min_margin": 0.0,
+    "min_score": -40.0,
+    "plausible_score": -60.0
+   },
+   "scales": {
+    "altitude_floor_ft": 29.824730670660912,
+    "altitude_ft": 0.0,
+    "altitude_ft_per_s": 1.153908300976906,
+    "course_deg": 0.695052362811071,
+    "position_floor_km": 0.10026244358285187,
+    "position_km": 0.0029820737375362005,
+    "position_km_per_s": 0.001959488395604206,
+    "speed_kmh": 3.6392845791400448
+   },
+   "use_altitude": true,
+   "use_speed_course": false
+  }
+ }
+}
